@@ -1,0 +1,14 @@
+{
+  "base_model": "BAAI/bge-small-en-v1.5",
+  "saved_model_path": "d:\\AI Hospital Assistant\\experiments\\models\\finetuned_bge_small",
+  "embedding_dimension": 384,
+  "quick_test_mode": true,
+  "train_samples_count": 300,
+  "batch_size": 4,
+  "epochs": 1,
+  "learning_rate": 2e-05,
+  "training_duration_seconds": 290.88,
+  "best_val_ndcg@10": 0.9926,
+  "device_used": "cpu",
+  "timestamp": "2026-11-19 23:33:09"
+}

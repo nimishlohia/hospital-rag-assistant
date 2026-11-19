@@ -1,6 +1,25 @@
-﻿.env
+.env
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 .streamlit/secrets.toml
+
+# Research Experiment Heavy Artifacts (Prevent large file commits)
+experiments/data/raw/
+experiments/data/processed/train.csv
+experiments/data/processed/train.jsonl
+experiments/data/processed/validation.csv
+experiments/data/processed/validation.jsonl
+experiments/data/processed/test.csv
+experiments/data/processed/test.jsonl
+experiments/models/finetuned_bge_small/checkpoints/
+experiments/models/finetuned_bge_small/*.safetensors
+experiments/models/finetuned_bge_small/*.bin
+experiments/models/finetuned_bge_small/optimizer.pt
+*.safetensors
+*.bin
+*.h5
+*.pt
+*.parquet
+

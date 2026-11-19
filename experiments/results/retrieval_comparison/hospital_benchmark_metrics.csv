@@ -1,0 +1,2 @@
+Benchmark,MRR@10,Hit@1,Hit@3,Hit@5,Recall@5,Precision@5,nDCG@10
+Hospital Inpatient & Policy Dataset,1.0,1.0,1.0,1.0,1.0,0.2,1.0

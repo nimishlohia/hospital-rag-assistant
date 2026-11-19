@@ -1,0 +1,13 @@
+question,is_answerable,expected_answer,generated_answer,exact_match,token_f1,fallback_triggered_correctly,latency_ms
+What are the visiting hours for the Intensive Care Unit (ICU)?,True,ICU visiting hours are strictly between 4:00 PM and 6:00 PM daily. Only two immediate family members are permitted per patient.,The ICU visiting hours are from 4:00 PM to 6:00 PM daily.,0.0,0.5455,,668.7
+What documents must a patient present at the time of admission?,True,"Patients must present a valid government-issued photo ID, insurance card or pre-authorization letter, doctor's admission referral, and previous medical test reports.","The patient must present the following documents at admission:
+
+1. Government photo identification (Aadhaar, Passport, or Driver’s License)  
+2. Primary health insurance card or TPA pre‑authorization letter  
+3. Attending physician’s admission referral form  
+4. Pertinent prior diagnostic reports",0.0,0.3729,,615.1
+Does the hospital provide free parking for outpatient chemotherapy patients?,False,I don't have that information in the provided document.,I don't have that information in the provided document.,1.0,1.0,True,474.9
+What fasting instructions are required before an abdominal ultrasound scan?,True,Patients must fast for at least 8 hours prior to an abdominal ultrasound. Water is allowed in small sips up to 2 hours before the examination.,Strict fasting for at least 8 hours is required. Small sips of plain water may be taken up to 2 hours before the scan.,0.0,0.6,,545.2
+What is the contact number for pediatric emergency night services?,True,"The pediatric emergency direct hotline is +1-800-555-0199, available 24/7.",+1-800-555-0199,0.0,0.2,,608.3
+Can a patient bring personal home-cooked food during an inpatient stay?,True,Outside food is strictly prohibited in patient wards unless written dietary clearance is granted by the hospital chief clinical dietitian.,"No, unless an explicit written authorization signed by the patient’s attending physician and the hospital chief clinical dietitian is obtained.",0.0,0.45,,728.0
+What is the pet policy for visiting therapy animals?,False,I don't have that information in the provided document.,I don't have that information in the provided document.,1.0,1.0,True,474.7

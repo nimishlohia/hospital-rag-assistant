@@ -10,7 +10,6 @@ from backend import db
 from backend.config import settings
 from backend.ingest import ingest_pdf
 from backend.rag_pipeline import answer_question
-from utils.embedding import get_embedding_model
 
 
 logging.basicConfig(
@@ -64,6 +63,8 @@ def health() -> dict[str, object]:
         "embedding_model": settings.embedding_model_name,
     }
     try:
+        from utils.embedding import get_embedding_model
+
         get_embedding_model()
         dependencies["embedding_loaded"] = True
     except Exception:
@@ -71,11 +72,20 @@ def health() -> dict[str, object]:
     return {"status": "ok", "dependencies": dependencies}
 
 
+SUPPORTED_EXTENSIONS = {".pdf", ".png", ".jpg", ".jpeg", ".webp"}
+
+
 @app.post("/upload")
 async def upload_document(file: UploadFile = File(...)) -> dict[str, object]:
-    filename = file.filename or "uploaded.pdf"
-    if not filename.lower().endswith(".pdf"):
-        raise HTTPException(status_code=400, detail="Only PDF files are supported.")
+    from pathlib import Path
+
+    filename = file.filename or "uploaded_file"
+    ext = Path(filename).suffix.lower()
+    if ext not in SUPPORTED_EXTENSIONS:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported file format. Supported formats: {', '.join(sorted(SUPPORTED_EXTENSIONS))}",
+        )
     try:
         return await ingest_pdf(file)
     except ValueError as exc:

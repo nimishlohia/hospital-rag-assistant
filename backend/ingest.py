@@ -4,6 +4,7 @@ import hashlib
 import io
 import logging
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 from fastapi import UploadFile
@@ -11,19 +12,42 @@ from pypdf import PdfReader
 
 from backend import db
 from utils.chunking import TextChunk, chunk_page_text
-from utils.embedding import embed_texts
-
+from utils.ocr import ocr_image
 
 logger = logging.getLogger(__name__)
+
+SUPPORTED_IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 
 
 def extract_pages_from_pdf(file_bytes: bytes) -> list[dict[str, Any]]:
     reader = PdfReader(io.BytesIO(file_bytes))
     pages: list[dict[str, Any]] = []
+    pdf_document = None
+
     for idx, page in enumerate(reader.pages, start=1):
-        text = page.extract_text() or ""
+        text = (page.extract_text() or "").strip()
+        # If the page has very little or no selectable text, it's likely a scan or image
+        if len(text) < 30:
+            try:
+                if pdf_document is None:
+                    import pypdfium2 as pdfium
+
+                    pdf_document = pdfium.PdfDocument(file_bytes)
+                page_img = pdf_document[idx - 1].render(scale=2).to_pil()
+                ocr_text = ocr_image(page_img)
+                if ocr_text:
+                    text = f"{text}\n{ocr_text}".strip() if text else ocr_text
+            except Exception as exc:
+                logger.warning("OCR processing for PDF page %d failed: %s", idx, exc)
+
         pages.append({"page_number": idx, "text": text})
+
     return pages
+
+
+def extract_pages_from_image(file_bytes: bytes) -> list[dict[str, Any]]:
+    text = ocr_image(file_bytes)
+    return [{"page_number": 1, "text": text}]
 
 
 def build_chunks(pages: list[dict[str, Any]]) -> list[TextChunk]:
@@ -44,11 +68,15 @@ def find_duplicate_document(filename: str, content_hash: str) -> dict[str, Any] 
     return None
 
 
-async def ingest_pdf(upload_file: UploadFile) -> dict[str, Any]:
-    filename = upload_file.filename or "uploaded.pdf"
+async def ingest_document(upload_file: UploadFile) -> dict[str, Any]:
+    from utils.embedding import embed_texts
+
+    filename = upload_file.filename or "uploaded_file"
+    extension = Path(filename).suffix.lower()
+
     file_bytes = await upload_file.read()
     if not file_bytes:
-        raise ValueError("Uploaded PDF is empty.")
+        raise ValueError("Uploaded file is empty.")
 
     content_hash = hashlib.sha256(file_bytes).hexdigest()
     duplicate = find_duplicate_document(filename, content_hash)
@@ -72,10 +100,14 @@ async def ingest_pdf(upload_file: UploadFile) -> dict[str, Any]:
     document_id = document["id"]
 
     try:
-        pages = extract_pages_from_pdf(file_bytes)
+        if extension in SUPPORTED_IMAGE_EXTENSIONS:
+            pages = extract_pages_from_image(file_bytes)
+        else:
+            pages = extract_pages_from_pdf(file_bytes)
+
         chunks = build_chunks(pages)
         if not chunks:
-            raise ValueError("No extractable text was found in the PDF.")
+            raise ValueError("No extractable text or OCR content was found in the uploaded file.")
 
         embeddings = embed_texts(chunk.content for chunk in chunks)
         rows = []
@@ -110,7 +142,7 @@ async def ingest_pdf(upload_file: UploadFile) -> dict[str, Any]:
             "message": f"{updated['filename']} processed successfully.",
         }
     except Exception as exc:
-        logger.exception("Failed to ingest PDF %s", filename)
+        logger.exception("Failed to ingest file %s", filename)
         db.update_document(
             document_id,
             {
@@ -123,3 +155,7 @@ async def ingest_pdf(upload_file: UploadFile) -> dict[str, Any]:
             },
         )
         raise
+
+
+# Backward-compatible alias
+ingest_pdf = ingest_document

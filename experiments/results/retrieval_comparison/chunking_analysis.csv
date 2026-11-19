@@ -1,0 +1,4 @@
+Configuration,Target Chunk Size,Overlap Tokens,Avg Tokens in Corpus,Max Tokens in Corpus,Truncation (>512 Tokens),Recommendation
+Existing,700,100,279.9,2772,33 (13.2%),High Truncation Risk
+Optimized,400,50,279.9,2772,33 (13.2%),Ideal
+Alternative,350,50,279.9,2772,33 (13.2%),Ideal

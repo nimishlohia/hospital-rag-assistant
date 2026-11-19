@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import html
 import sys
@@ -104,16 +104,16 @@ def render_sidebar() -> list[str]:
     with st.sidebar:
         st.markdown("## Upload & Index")
         uploads = st.file_uploader(
-            "Add hospital PDFs",
-            type=["pdf"],
+            "Add hospital documents / images",
+            type=["pdf", "png", "jpg", "jpeg", "webp"],
             accept_multiple_files=True,
-            help="Upload one or more PDF files. Each document is indexed independently.",
+            help="Upload hospital PDFs (typed or scanned), prescriptions, or report images (.png, .jpg).",
         )
         if st.button("Process Document(s)", use_container_width=True, disabled=not uploads):
             status_messages = []
             for upload in uploads or []:
                 with st.spinner(f"Processing {upload.name}..."):
-                    result = api_post("/upload", files={"file": (upload.name, upload.getvalue(), "application/pdf")})
+                    result = api_post("/upload", files={"file": (upload.name, upload.getvalue(), upload.type or "application/octet-stream")})
                     status_messages.append((result.get("status"), result.get("message", "")))
             refresh_documents()
             reset_chat_for_knowledge_base_change("Knowledge base updated. Ask your question again.")

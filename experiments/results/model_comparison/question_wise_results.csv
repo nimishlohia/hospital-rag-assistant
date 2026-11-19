@@ -1,0 +1,1251 @@
+model,query_idx,question,retrieved_top1,correct,mrr
+BGE-Small v1.5 (Pretrained Baseline),0,How many people are affected by X-linked spondyloepiphyseal dysplasia tarda ?,doc_0,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),1,Is Hereditary multiple osteochondromas inherited ?,doc_1,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),2,What are the symptoms of Mucopolysaccharidosis type IIID ?,doc_2,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),3,How to prevent High Blood Pressure ?,doc_3,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),4,What are the symptoms of Von Hippel-Lindau disease ?,doc_4,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),5,what research (or clinical trials) is being done for Hypersomnia ?,doc_5,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),6,What are the symptoms of GM1 gangliosidosis type 2 ?,doc_6,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),7,What is (are) Cryptosporidiosis ?,doc_7,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),8,What are the symptoms of Human T-cell leukemia virus type 2 ?,doc_8,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),9,What are the genetic changes related to spinocerebellar ataxia type 1 ?,doc_77,False,0.3333333333333333
+BGE-Small v1.5 (Pretrained Baseline),10,Is X-linked congenital stationary night blindness inherited ?,doc_10,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),11,What is the outlook for Adult Central Nervous System Tumors ?,doc_149,False,0.3333333333333333
+BGE-Small v1.5 (Pretrained Baseline),12,How many people are affected by gnathodiaphyseal dysplasia ?,doc_12,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),13,What are the treatments for Malignant eccrine spiradenoma ?,doc_13,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),14,"What are the symptoms of Epilepsy, benign occipital ?",doc_14,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),15,Is Klippel-Trenaunay syndrome inherited ?,doc_15,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),16,What are the treatments for Parasites - Cyclosporiasis (Cyclospora Infection) ?,doc_16,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),17,What is the outlook for Gastrointestinal Carcinoid Tumors ?,doc_17,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),18,What are the genetic changes related to campomelic dysplasia ?,doc_18,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),19,What causes Factor V deficiency ?,doc_19,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),20,What is (are) Lattice corneal dystrophy type 3A ?,doc_20,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),21,Do you have information about Infant and Newborn Nutrition,doc_21,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),22,Is Liddle syndrome inherited ?,doc_22,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),23,What causes What I need to know about Erectile Dysfunction ?,doc_23,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),24,Who is at risk for Kyasanur Forest Disease (KFD)? ?,doc_24,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),25,What are the treatments for PPM-X syndrome ?,doc_25,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),26,What causes Diffuse gastric cancer ?,doc_26,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),27,What are the symptoms of Microcephalic osteodysplastic primordial dwarfism type 1 ?,doc_27,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),28,What is the outlook for Extragonadal Germ Cell Tumors ?,doc_186,False,0.3333333333333333
+BGE-Small v1.5 (Pretrained Baseline),29,What are the genetic changes related to tetra-amelia syndrome ?,doc_29,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),30,What are the symptoms of Diabetic Retinopathy ?,doc_205,False,0.3333333333333333
+BGE-Small v1.5 (Pretrained Baseline),31,What are the treatments for Pseudotumor Cerebri ?,doc_31,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),32,How many people are affected by mitochondrial trifunctional protein deficiency ?,doc_32,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),33,What is (are) Danon disease ?,doc_33,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),34,What are the treatments for Ewing Sarcoma ?,doc_34,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),35,What is (are) Hereditary sensory and autonomic neuropathy ?,doc_35,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),36,Do you have information about A1C,doc_36,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),37,Is Mondini dysplasia inherited ?,doc_37,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),38,What are the symptoms of Legius syndrome ?,doc_38,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),39,What are the symptoms of X-linked hypohidrotic ectodermal dysplasia ?,doc_39,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),40,What is (are) Mycosis Fungoides and the Szary Syndrome ?,doc_40,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),41,What are the symptoms of Chronic Fatigue Syndrome (CFS) ?,doc_41,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),42,Is Postural orthostatic tachycardia syndrome inherited ?,doc_42,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),43,What is (are) Striatonigral Degeneration ?,doc_43,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),44,What is (are) Junctional epidermolysis bullosa ?,doc_44,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),45,Who is at risk for Primary Ciliary Dyskinesia? ?,doc_243,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),46,What are the genetic changes related to pyruvate kinase deficiency ?,doc_152,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),47,What is (are) Stve-Wiedemann syndrome ?,doc_47,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),48,What is (are) PMM2-congenital disorder of glycosylation ?,doc_48,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),49,what research (or clinical trials) is being done for Kidney Disease ?,doc_49,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),50,What is (are) Limb-girdle muscular dystrophy ?,doc_50,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),51,What are the genetic changes related to combined pituitary hormone deficiency ?,doc_51,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),52,How many people are affected by alveolar capillary dysplasia with misalignment of pulmonary veins ?,doc_208,False,0.0
+BGE-Small v1.5 (Pretrained Baseline),53,How to prevent Heart Failure ?,doc_53,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),54,What is (are) Ehlers-Danlos syndrome ?,doc_54,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),55,Is Waldenstrm macroglobulinemia inherited ?,doc_55,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),56,What are the treatments for Alpha-thalassemia ?,doc_56,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),57,What is (are) Acute Disseminated Encephalomyelitis ?,doc_57,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),58,What causes Tylosis with esophageal cancer ?,doc_58,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),59,What is (are) Lung Cancer ?,doc_59,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),60,what research (or clinical trials) is being done for Neurosyphilis ?,doc_60,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),61,what research (or clinical trials) is being done for Brown-Sequard Syndrome ?,doc_49,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),62,What is (are) Cardiogenic Shock ?,doc_62,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),63,What are the genetic changes related to Simpson-Golabi-Behmel syndrome ?,doc_63,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),64,How to diagnose Neurofibromatosis type 1 ?,doc_64,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),65,"What are the treatments for 46,XX testicular disorder of sex development ?",doc_65,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),66,How many people are affected by trichothiodystrophy ?,doc_66,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),67,What are the symptoms of Familial hypocalciuric hypercalcemia type 1 ?,doc_67,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),68,What causes Peripheral Arterial Disease (P.A.D.) ?,doc_68,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),69,What is (are) Rh Incompatibility ?,doc_69,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),70,What are the symptoms of Doyne honeycomb retinal dystrophy ?,doc_70,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),71,What is (are) ankylosing spondylitis ?,doc_71,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),72,What are the treatments for Disseminated peritoneal leiomyomatosis ?,doc_72,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),73,What are the treatments for Tetralogy of Fallot ?,doc_73,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),74,What are the symptoms of Omodysplasia 2 ?,doc_74,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),75,What are the symptoms of Cronkhite-Canada disease ?,doc_75,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),76,What are the symptoms of Sarcosinemia ?,doc_76,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),77,What causes Pontocerebellar hypoplasia type 1 ?,doc_77,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),78,What is (are) Diabetes ?,doc_78,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),79,What is (are) Ovarian sex cord tumor with annular tubules ?,doc_79,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),80,What is (are) Darier disease ?,doc_80,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),81,How many people are affected by Alzheimer disease ?,doc_81,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),82,What is (are) Joubert syndrome ?,doc_82,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),83,What are the symptoms of Baller-Gerold syndrome ?,doc_83,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),84,What are the genetic changes related to otopalatodigital syndrome type 1 ?,doc_84,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),85,How to diagnose Hanhart syndrome ?,doc_85,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),86,How many people are affected by pyruvate carboxylase deficiency ?,doc_86,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),87,What is (are) multiple mitochondrial dysfunctions syndrome ?,doc_87,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),88,"What are the symptoms of Dystonia 6, torsion ?",doc_88,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),89,What is (are) Cyclic Vomiting Syndrome ?,doc_146,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),90,What is (are) What I need to know about Lactose Intolerance ?,doc_90,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),91,What are the symptoms of Tay-Sachs disease ?,doc_91,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),92,What is the outlook for Febrile Seizures ?,doc_92,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),93,What are the treatments for gyrate atrophy of the choroid and retina ?,doc_93,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),94,What are the treatments for activated PI3K-delta syndrome ?,doc_94,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),95,How to diagnose Cirrhosis ?,doc_95,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),96,What is the outlook for Prostate Cancer ?,doc_96,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),97,"Is Ehlers-Danlos syndrome, dermatosparaxis type inherited ?",doc_97,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),98,What are the stages of Chronic Myelogenous Leukemia ?,doc_98,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),99,What is (are) Esophagus Disorders ?,doc_99,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),100,What are the treatments for Thrombocytopenia ?,doc_100,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),101,What are the treatments for familial dysautonomia ?,doc_101,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),102,Is psoriatic arthritis inherited ?,doc_102,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),103,What are the treatments for atelosteogenesis type 3 ?,doc_103,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),104,What is (are) Meier-Gorlin syndrome ?,doc_104,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),105,What are the treatments for Factor XIII deficiency ?,doc_105,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),106,What is (are) High Blood Pressure in Pregnancy ?,doc_106,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),107,What is (are) spondyloepiphyseal dysplasia congenita ?,doc_107,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),108,What are the symptoms of Vasculitis ?,doc_108,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),109,Is X-linked myotubular myopathy inherited ?,doc_109,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),110,What is the outlook for Wilms Tumor and Other Childhood Kidney Tumors ?,doc_110,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),111,What is (are) Glossopharyngeal Neuralgia ?,doc_111,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),112,What is (are) Axenfeld-Rieger syndrome type 1 ?,doc_112,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),113,What are the treatments for Y chromosome infertility ?,doc_113,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),114,What is (are) Parkinson's Disease ?,doc_114,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),115,What causes Gas in the Digestive Tract ?,doc_115,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),116,How to prevent Peripheral Arterial Disease (P.A.D.) ?,doc_68,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),117,What are the symptoms of Heart Attack ?,doc_117,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),118,How many people are affected by sialic acid storage disease ?,doc_118,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),119,What is (are) Pityriasis rubra pilaris ?,doc_119,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),120,What is the outlook for Hydromyelia ?,doc_120,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),121,What is the outlook for Pseudotumor Cerebri ?,doc_121,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),122,What are the genetic changes related to essential thrombocythemia ?,doc_122,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),123,What are the treatments for ring chromosome 14 syndrome ?,doc_123,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),124,What is (are) Carpal Tunnel Syndrome ?,doc_124,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),125,What is (are) Dumping Syndrome ?,doc_146,False,0.0
+BGE-Small v1.5 (Pretrained Baseline),126,What is (are) Pneumonia ?,doc_126,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),127,Who is at risk for Colorectal Cancer? ?,doc_127,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),128,Who is at risk for Pernicious Anemia? ?,doc_128,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),129,How to prevent Endocarditis ?,doc_129,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),130,Is Multiple endocrine neoplasia type 2A inherited ?,doc_130,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),131,What is the outlook for Coma ?,doc_131,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),132,What is the outlook for Parathyroid Cancer ?,doc_132,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),133,How many people are affected by megalencephalic leukoencephalopathy with subcortical cysts ?,doc_133,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),134,How to diagnose Shingles ?,doc_134,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),135,How many people are affected by craniofacial microsomia ?,doc_135,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),136,What is the outlook for Nasopharyngeal Cancer ?,doc_136,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),137,What is (are) Chorea-acanthocytosis ?,doc_137,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),138,What are the genetic changes related to PRICKLE1-related progressive myoclonus epilepsy with ataxia ?,doc_138,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),139,What is the outlook for Sturge-Weber Syndrome ?,doc_177,False,0.0
+BGE-Small v1.5 (Pretrained Baseline),140,How to prevent Immune Thrombocytopenia ?,doc_140,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),141,What are the symptoms of Intestinal Pseudo-obstruction ?,doc_141,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),142,What is (are) Snyder-Robinson syndrome ?,doc_142,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),143,What are the genetic changes related to chorea-acanthocytosis ?,doc_137,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),144,Do you have information about Artificial Limbs,doc_144,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),145,What are the genetic changes related to primary carnitine deficiency ?,doc_145,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),146,What to do for Cyclic Vomiting Syndrome ?,doc_146,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),147,Who is at risk for Langerhans Cell Histiocytosis? ?,doc_55,False,0.0
+BGE-Small v1.5 (Pretrained Baseline),148,"What are the symptoms of Polyhydramnios, megalencephaly, and symptomatic epilepsy syndrome ?",doc_148,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),149,What is the outlook for Pituitary Tumors ?,doc_149,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),150,What are the genetic changes related to microphthalmia with linear skin defects syndrome ?,doc_150,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),151,What are the treatments for Eales disease ?,doc_151,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),152,What causes Pyruvate kinase deficiency ?,doc_152,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),153,Do you have information about Foot Health,doc_153,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),154,What are the symptoms of Thai symphalangism syndrome ?,doc_154,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),155,What causes Shingles ?,doc_155,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),156,How to prevent Mitral Valve Prolapse ?,doc_156,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),157,What are the stages of Rectal Cancer ?,doc_157,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),158,What are the treatments for Idiopathic juxtafoveal retinal telangiectasia ?,doc_158,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),159,Is Fryns syndrome inherited ?,doc_159,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),160,What is (are) ALG1-congenital disorder of glycosylation ?,doc_160,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),161,What is the outlook for Non-Small Cell Lung Cancer ?,doc_161,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),162,How many people are affected by cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy ?,doc_133,False,0.0
+BGE-Small v1.5 (Pretrained Baseline),163,What are the treatments for Financial Help for Diabetes Care ?,doc_163,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),164,How many people are affected by spastic paraplegia type 15 ?,doc_164,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),165,What are the treatments for tyrosinemia ?,doc_165,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),166,What is (are) L1 syndrome ?,doc_166,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),167,What are the symptoms of Acromegaly ?,doc_167,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),168,What is (are) Baller-Gerold syndrome ?,doc_168,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),169,Do you have information about Veterans and Military Health,doc_169,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),170,What are the symptoms of Pycnodysostosis ?,doc_170,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),171,What is (are) Myasthenia Gravis ?,doc_171,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),172,What are the genetic changes related to ovarian cancer ?,doc_172,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),173,What is the outlook for Metastatic Squamous Neck Cancer with Occult Primary ?,doc_11,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),174,What are the symptoms of Juvenile Myelomonocytic Leukemia ?,doc_174,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),175,What causes Renal Artery Stenosis ?,doc_175,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),176,What are the symptoms of Mandibulofacial dysostosis with microcephaly ?,doc_176,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),177,What is (are) Renpenning syndrome ?,doc_177,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),178,What is the outlook for Gallbladder Cancer ?,doc_178,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),179,What is the outlook for Peripheral Neuropathy ?,doc_193,False,0.25
+BGE-Small v1.5 (Pretrained Baseline),180,What are the symptoms of Amish infantile epilepsy syndrome ?,doc_180,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),181,What is the outlook for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?,doc_186,False,0.14285714285714285
+BGE-Small v1.5 (Pretrained Baseline),182,What are the genetic changes related to heterotaxy syndrome ?,doc_182,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),183,What are the symptoms of Osteogenesis imperfecta Levin type ?,doc_183,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),184,Who is at risk for Childhood Brain Stem Glioma? ?,doc_184,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),185,How many people are affected by Friedreich ataxia ?,doc_185,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),186,What is (are) Childhood Central Nervous System Germ Cell Tumors ?,doc_186,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),187,What is (are) Myotonia congenita autosomal dominant ?,doc_187,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),188,What are the treatments for hereditary spherocytosis ?,doc_188,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),189,What are the treatments for Transient Ischemic Attack ?,doc_189,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),190,What are the symptoms of Patterned dystrophy of retinal pigment epithelium ?,doc_190,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),191,"What are the symptoms of Palmoplantar keratoderma, epidermolytic ?",doc_191,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),192,How to diagnose Pyruvate kinase deficiency ?,doc_152,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),193,What are the symptoms of Diabetic Neuropathies: The Nerve Damage of Diabetes ?,doc_193,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),194,How many people are affected by chylomicron retention disease ?,doc_194,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),195,What is (are) granulomatosis with polyangiitis ?,doc_195,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),196,What are the treatments for Depression ?,doc_196,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),197,How many people are affected by ZAP70-related severe combined immunodeficiency ?,doc_197,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),198,What are the treatments for Atrial Fibrillation and Stroke ?,doc_198,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),199,What is (are) Knee Replacement ?,doc_199,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),200,What is (are) Klinefelter syndrome ?,doc_200,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),201,"What are the genetic changes related to Ohdo syndrome, Maat-Kievit-Brunner type ?",doc_201,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),202,What is (are) Pericarditis ?,doc_202,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),203,What are the treatments for Heart Failure ?,doc_203,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),204,How many people are affected by Wolman disease ?,doc_204,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),205,What are the symptoms of Diabetic Kidney Disease ?,doc_205,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),206,What are the treatments for Parasites - Toxoplasmosis (Toxoplasma infection) ?,doc_206,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),207,What are the treatments for X-linked adrenal hypoplasia congenita ?,doc_207,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),208,How many people are affected by amelogenesis imperfecta ?,doc_208,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),209,Do you have information about Limb Loss,doc_209,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),210,What is (are) adult-onset leukoencephalopathy with axonal spheroids and pigmented glia ?,doc_210,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),211,What are the treatments for Danon disease ?,doc_211,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),212,What are the symptoms of Tubulointerstitial nephritis and uveitis ?,doc_212,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),213,What is (are) High Blood Cholesterol ?,doc_223,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),214,What is (are) Cushing disease ?,doc_214,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),215,What is (are) Hennekam syndrome ?,doc_215,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),216,What are the treatments for gnathodiaphyseal dysplasia ?,doc_216,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),217,What is (are) Trigeminal Neuralgia ?,doc_217,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),218,What is (are) Stress ?,doc_218,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),219,How to prevent Diabetic Kidney Disease ?,doc_219,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),220,What is (are) Steatocystoma multiplex ?,doc_220,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),221,What are the symptoms of Mental retardation X-linked syndromic 11 ?,doc_221,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),222,What causes Punctate palmoplantar keratoderma type I ?,doc_222,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),223,Do you have information about Triglycerides,doc_223,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),224,Do you have information about Healthy Living,doc_224,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),225,What is the outlook for Adult Acute Lymphoblastic Leukemia ?,doc_174,False,0.3333333333333333
+BGE-Small v1.5 (Pretrained Baseline),226,How many people are affected by X-linked infantile spasm syndrome ?,doc_226,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),227,What is (are) Stomach Cancer ?,doc_227,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),228,What is (are) Alopecia totalis ?,doc_228,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),229,How many people are affected by Cushing disease ?,doc_229,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),230,How many people are affected by Bart-Pumphrey syndrome ?,doc_230,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),231,What are the symptoms of Hemangioma thrombocytopenia syndrome ?,doc_231,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),232,What are the treatments for Adult Soft Tissue Sarcoma ?,doc_232,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),233,What is (are) Asthma in Children ?,doc_233,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),234,What are the treatments for spinal and bulbar muscular atrophy ?,doc_234,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),235,What is the outlook for Klippel-Trenaunay Syndrome (KTS) ?,doc_15,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),236,what research (or clinical trials) is being done for Spinal Cord Infarction ?,doc_236,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),237,Is centronuclear myopathy inherited ?,doc_237,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),238,What is (are) Leprechaunism ?,doc_238,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),239,What are the treatments for benign essential blepharospasm ?,doc_239,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),240,Do you have information about Child Dental Health,doc_240,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),241,What are the treatments for Peripheral Neuropathy ?,doc_241,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),242,What is (are) Cerebral Hypoxia ?,doc_242,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),243,What is (are) Primary Ciliary Dyskinesia ?,doc_45,False,0.5
+BGE-Small v1.5 (Pretrained Baseline),244,Is Metachromatic leukodystrophy inherited ?,doc_244,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),245,What are the treatments for Isovaleric acidemia ?,doc_245,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),246,what research (or clinical trials) is being done for Cerebral Hypoxia ?,doc_246,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),247,What is (are) Juvenile osteoporosis ?,doc_247,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),248,What are the treatments for UV-sensitive syndrome ?,doc_248,True,1.0
+BGE-Small v1.5 (Pretrained Baseline),249,What are the genetic changes related to hereditary sensory and autonomic neuropathy type II ?,doc_35,False,0.5
+E5-Small v2 (Pretrained Competitor),0,How many people are affected by X-linked spondyloepiphyseal dysplasia tarda ?,doc_0,True,1.0
+E5-Small v2 (Pretrained Competitor),1,Is Hereditary multiple osteochondromas inherited ?,doc_1,True,1.0
+E5-Small v2 (Pretrained Competitor),2,What are the symptoms of Mucopolysaccharidosis type IIID ?,doc_2,True,1.0
+E5-Small v2 (Pretrained Competitor),3,How to prevent High Blood Pressure ?,doc_53,False,0.5
+E5-Small v2 (Pretrained Competitor),4,What are the symptoms of Von Hippel-Lindau disease ?,doc_4,True,1.0
+E5-Small v2 (Pretrained Competitor),5,what research (or clinical trials) is being done for Hypersomnia ?,doc_5,True,1.0
+E5-Small v2 (Pretrained Competitor),6,What are the symptoms of GM1 gangliosidosis type 2 ?,doc_6,True,1.0
+E5-Small v2 (Pretrained Competitor),7,What is (are) Cryptosporidiosis ?,doc_7,True,1.0
+E5-Small v2 (Pretrained Competitor),8,What are the symptoms of Human T-cell leukemia virus type 2 ?,doc_8,True,1.0
+E5-Small v2 (Pretrained Competitor),9,What are the genetic changes related to spinocerebellar ataxia type 1 ?,doc_138,False,0.3333333333333333
+E5-Small v2 (Pretrained Competitor),10,Is X-linked congenital stationary night blindness inherited ?,doc_10,True,1.0
+E5-Small v2 (Pretrained Competitor),11,What is the outlook for Adult Central Nervous System Tumors ?,doc_186,False,0.5
+E5-Small v2 (Pretrained Competitor),12,How many people are affected by gnathodiaphyseal dysplasia ?,doc_12,True,1.0
+E5-Small v2 (Pretrained Competitor),13,What are the treatments for Malignant eccrine spiradenoma ?,doc_13,True,1.0
+E5-Small v2 (Pretrained Competitor),14,"What are the symptoms of Epilepsy, benign occipital ?",doc_14,True,1.0
+E5-Small v2 (Pretrained Competitor),15,Is Klippel-Trenaunay syndrome inherited ?,doc_15,True,1.0
+E5-Small v2 (Pretrained Competitor),16,What are the treatments for Parasites - Cyclosporiasis (Cyclospora Infection) ?,doc_16,True,1.0
+E5-Small v2 (Pretrained Competitor),17,What is the outlook for Gastrointestinal Carcinoid Tumors ?,doc_17,True,1.0
+E5-Small v2 (Pretrained Competitor),18,What are the genetic changes related to campomelic dysplasia ?,doc_18,True,1.0
+E5-Small v2 (Pretrained Competitor),19,What causes Factor V deficiency ?,doc_19,True,1.0
+E5-Small v2 (Pretrained Competitor),20,What is (are) Lattice corneal dystrophy type 3A ?,doc_20,True,1.0
+E5-Small v2 (Pretrained Competitor),21,Do you have information about Infant and Newborn Nutrition,doc_21,True,1.0
+E5-Small v2 (Pretrained Competitor),22,Is Liddle syndrome inherited ?,doc_22,True,1.0
+E5-Small v2 (Pretrained Competitor),23,What causes What I need to know about Erectile Dysfunction ?,doc_23,True,1.0
+E5-Small v2 (Pretrained Competitor),24,Who is at risk for Kyasanur Forest Disease (KFD)? ?,doc_24,True,1.0
+E5-Small v2 (Pretrained Competitor),25,What are the treatments for PPM-X syndrome ?,doc_25,True,1.0
+E5-Small v2 (Pretrained Competitor),26,What causes Diffuse gastric cancer ?,doc_26,True,1.0
+E5-Small v2 (Pretrained Competitor),27,What are the symptoms of Microcephalic osteodysplastic primordial dwarfism type 1 ?,doc_27,True,1.0
+E5-Small v2 (Pretrained Competitor),28,What is the outlook for Extragonadal Germ Cell Tumors ?,doc_186,False,0.25
+E5-Small v2 (Pretrained Competitor),29,What are the genetic changes related to tetra-amelia syndrome ?,doc_29,True,1.0
+E5-Small v2 (Pretrained Competitor),30,What are the symptoms of Diabetic Retinopathy ?,doc_205,False,0.25
+E5-Small v2 (Pretrained Competitor),31,What are the treatments for Pseudotumor Cerebri ?,doc_31,True,1.0
+E5-Small v2 (Pretrained Competitor),32,How many people are affected by mitochondrial trifunctional protein deficiency ?,doc_32,True,1.0
+E5-Small v2 (Pretrained Competitor),33,What is (are) Danon disease ?,doc_33,True,1.0
+E5-Small v2 (Pretrained Competitor),34,What are the treatments for Ewing Sarcoma ?,doc_34,True,1.0
+E5-Small v2 (Pretrained Competitor),35,What is (are) Hereditary sensory and autonomic neuropathy ?,doc_35,True,1.0
+E5-Small v2 (Pretrained Competitor),36,Do you have information about A1C,doc_36,True,1.0
+E5-Small v2 (Pretrained Competitor),37,Is Mondini dysplasia inherited ?,doc_37,True,1.0
+E5-Small v2 (Pretrained Competitor),38,What are the symptoms of Legius syndrome ?,doc_38,True,1.0
+E5-Small v2 (Pretrained Competitor),39,What are the symptoms of X-linked hypohidrotic ectodermal dysplasia ?,doc_39,True,1.0
+E5-Small v2 (Pretrained Competitor),40,What is (are) Mycosis Fungoides and the Szary Syndrome ?,doc_40,True,1.0
+E5-Small v2 (Pretrained Competitor),41,What are the symptoms of Chronic Fatigue Syndrome (CFS) ?,doc_41,True,1.0
+E5-Small v2 (Pretrained Competitor),42,Is Postural orthostatic tachycardia syndrome inherited ?,doc_42,True,1.0
+E5-Small v2 (Pretrained Competitor),43,What is (are) Striatonigral Degeneration ?,doc_43,True,1.0
+E5-Small v2 (Pretrained Competitor),44,What is (are) Junctional epidermolysis bullosa ?,doc_44,True,1.0
+E5-Small v2 (Pretrained Competitor),45,Who is at risk for Primary Ciliary Dyskinesia? ?,doc_45,True,1.0
+E5-Small v2 (Pretrained Competitor),46,What are the genetic changes related to pyruvate kinase deficiency ?,doc_152,False,0.5
+E5-Small v2 (Pretrained Competitor),47,What is (are) Stve-Wiedemann syndrome ?,doc_47,True,1.0
+E5-Small v2 (Pretrained Competitor),48,What is (are) PMM2-congenital disorder of glycosylation ?,doc_48,True,1.0
+E5-Small v2 (Pretrained Competitor),49,what research (or clinical trials) is being done for Kidney Disease ?,doc_49,True,1.0
+E5-Small v2 (Pretrained Competitor),50,What is (are) Limb-girdle muscular dystrophy ?,doc_50,True,1.0
+E5-Small v2 (Pretrained Competitor),51,What are the genetic changes related to combined pituitary hormone deficiency ?,doc_51,True,1.0
+E5-Small v2 (Pretrained Competitor),52,How many people are affected by alveolar capillary dysplasia with misalignment of pulmonary veins ?,doc_0,False,0.16666666666666666
+E5-Small v2 (Pretrained Competitor),53,How to prevent Heart Failure ?,doc_53,True,1.0
+E5-Small v2 (Pretrained Competitor),54,What is (are) Ehlers-Danlos syndrome ?,doc_54,True,1.0
+E5-Small v2 (Pretrained Competitor),55,Is Waldenstrm macroglobulinemia inherited ?,doc_55,True,1.0
+E5-Small v2 (Pretrained Competitor),56,What are the treatments for Alpha-thalassemia ?,doc_56,True,1.0
+E5-Small v2 (Pretrained Competitor),57,What is (are) Acute Disseminated Encephalomyelitis ?,doc_57,True,1.0
+E5-Small v2 (Pretrained Competitor),58,What causes Tylosis with esophageal cancer ?,doc_58,True,1.0
+E5-Small v2 (Pretrained Competitor),59,What is (are) Lung Cancer ?,doc_59,True,1.0
+E5-Small v2 (Pretrained Competitor),60,what research (or clinical trials) is being done for Neurosyphilis ?,doc_60,True,1.0
+E5-Small v2 (Pretrained Competitor),61,what research (or clinical trials) is being done for Brown-Sequard Syndrome ?,doc_49,False,0.25
+E5-Small v2 (Pretrained Competitor),62,What is (are) Cardiogenic Shock ?,doc_62,True,1.0
+E5-Small v2 (Pretrained Competitor),63,What are the genetic changes related to Simpson-Golabi-Behmel syndrome ?,doc_63,True,1.0
+E5-Small v2 (Pretrained Competitor),64,How to diagnose Neurofibromatosis type 1 ?,doc_64,True,1.0
+E5-Small v2 (Pretrained Competitor),65,"What are the treatments for 46,XX testicular disorder of sex development ?",doc_65,True,1.0
+E5-Small v2 (Pretrained Competitor),66,How many people are affected by trichothiodystrophy ?,doc_66,True,1.0
+E5-Small v2 (Pretrained Competitor),67,What are the symptoms of Familial hypocalciuric hypercalcemia type 1 ?,doc_67,True,1.0
+E5-Small v2 (Pretrained Competitor),68,What causes Peripheral Arterial Disease (P.A.D.) ?,doc_68,True,1.0
+E5-Small v2 (Pretrained Competitor),69,What is (are) Rh Incompatibility ?,doc_69,True,1.0
+E5-Small v2 (Pretrained Competitor),70,What are the symptoms of Doyne honeycomb retinal dystrophy ?,doc_70,True,1.0
+E5-Small v2 (Pretrained Competitor),71,What is (are) ankylosing spondylitis ?,doc_71,True,1.0
+E5-Small v2 (Pretrained Competitor),72,What are the treatments for Disseminated peritoneal leiomyomatosis ?,doc_72,True,1.0
+E5-Small v2 (Pretrained Competitor),73,What are the treatments for Tetralogy of Fallot ?,doc_73,True,1.0
+E5-Small v2 (Pretrained Competitor),74,What are the symptoms of Omodysplasia 2 ?,doc_74,True,1.0
+E5-Small v2 (Pretrained Competitor),75,What are the symptoms of Cronkhite-Canada disease ?,doc_75,True,1.0
+E5-Small v2 (Pretrained Competitor),76,What are the symptoms of Sarcosinemia ?,doc_76,True,1.0
+E5-Small v2 (Pretrained Competitor),77,What causes Pontocerebellar hypoplasia type 1 ?,doc_77,True,1.0
+E5-Small v2 (Pretrained Competitor),78,What is (are) Diabetes ?,doc_78,True,1.0
+E5-Small v2 (Pretrained Competitor),79,What is (are) Ovarian sex cord tumor with annular tubules ?,doc_79,True,1.0
+E5-Small v2 (Pretrained Competitor),80,What is (are) Darier disease ?,doc_80,True,1.0
+E5-Small v2 (Pretrained Competitor),81,How many people are affected by Alzheimer disease ?,doc_81,True,1.0
+E5-Small v2 (Pretrained Competitor),82,What is (are) Joubert syndrome ?,doc_82,True,1.0
+E5-Small v2 (Pretrained Competitor),83,What are the symptoms of Baller-Gerold syndrome ?,doc_83,True,1.0
+E5-Small v2 (Pretrained Competitor),84,What are the genetic changes related to otopalatodigital syndrome type 1 ?,doc_84,True,1.0
+E5-Small v2 (Pretrained Competitor),85,How to diagnose Hanhart syndrome ?,doc_85,True,1.0
+E5-Small v2 (Pretrained Competitor),86,How many people are affected by pyruvate carboxylase deficiency ?,doc_86,True,1.0
+E5-Small v2 (Pretrained Competitor),87,What is (are) multiple mitochondrial dysfunctions syndrome ?,doc_87,True,1.0
+E5-Small v2 (Pretrained Competitor),88,"What are the symptoms of Dystonia 6, torsion ?",doc_88,True,1.0
+E5-Small v2 (Pretrained Competitor),89,What is (are) Cyclic Vomiting Syndrome ?,doc_146,False,0.5
+E5-Small v2 (Pretrained Competitor),90,What is (are) What I need to know about Lactose Intolerance ?,doc_90,True,1.0
+E5-Small v2 (Pretrained Competitor),91,What are the symptoms of Tay-Sachs disease ?,doc_91,True,1.0
+E5-Small v2 (Pretrained Competitor),92,What is the outlook for Febrile Seizures ?,doc_92,True,1.0
+E5-Small v2 (Pretrained Competitor),93,What are the treatments for gyrate atrophy of the choroid and retina ?,doc_93,True,1.0
+E5-Small v2 (Pretrained Competitor),94,What are the treatments for activated PI3K-delta syndrome ?,doc_94,True,1.0
+E5-Small v2 (Pretrained Competitor),95,How to diagnose Cirrhosis ?,doc_95,True,1.0
+E5-Small v2 (Pretrained Competitor),96,What is the outlook for Prostate Cancer ?,doc_96,True,1.0
+E5-Small v2 (Pretrained Competitor),97,"Is Ehlers-Danlos syndrome, dermatosparaxis type inherited ?",doc_97,True,1.0
+E5-Small v2 (Pretrained Competitor),98,What are the stages of Chronic Myelogenous Leukemia ?,doc_98,True,1.0
+E5-Small v2 (Pretrained Competitor),99,What is (are) Esophagus Disorders ?,doc_99,True,1.0
+E5-Small v2 (Pretrained Competitor),100,What are the treatments for Thrombocytopenia ?,doc_100,True,1.0
+E5-Small v2 (Pretrained Competitor),101,What are the treatments for familial dysautonomia ?,doc_101,True,1.0
+E5-Small v2 (Pretrained Competitor),102,Is psoriatic arthritis inherited ?,doc_102,True,1.0
+E5-Small v2 (Pretrained Competitor),103,What are the treatments for atelosteogenesis type 3 ?,doc_103,True,1.0
+E5-Small v2 (Pretrained Competitor),104,What is (are) Meier-Gorlin syndrome ?,doc_104,True,1.0
+E5-Small v2 (Pretrained Competitor),105,What are the treatments for Factor XIII deficiency ?,doc_105,True,1.0
+E5-Small v2 (Pretrained Competitor),106,What is (are) High Blood Pressure in Pregnancy ?,doc_106,True,1.0
+E5-Small v2 (Pretrained Competitor),107,What is (are) spondyloepiphyseal dysplasia congenita ?,doc_107,True,1.0
+E5-Small v2 (Pretrained Competitor),108,What are the symptoms of Vasculitis ?,doc_108,True,1.0
+E5-Small v2 (Pretrained Competitor),109,Is X-linked myotubular myopathy inherited ?,doc_109,True,1.0
+E5-Small v2 (Pretrained Competitor),110,What is the outlook for Wilms Tumor and Other Childhood Kidney Tumors ?,doc_110,True,1.0
+E5-Small v2 (Pretrained Competitor),111,What is (are) Glossopharyngeal Neuralgia ?,doc_111,True,1.0
+E5-Small v2 (Pretrained Competitor),112,What is (are) Axenfeld-Rieger syndrome type 1 ?,doc_112,True,1.0
+E5-Small v2 (Pretrained Competitor),113,What are the treatments for Y chromosome infertility ?,doc_113,True,1.0
+E5-Small v2 (Pretrained Competitor),114,What is (are) Parkinson's Disease ?,doc_114,True,1.0
+E5-Small v2 (Pretrained Competitor),115,What causes Gas in the Digestive Tract ?,doc_115,True,1.0
+E5-Small v2 (Pretrained Competitor),116,How to prevent Peripheral Arterial Disease (P.A.D.) ?,doc_68,False,0.5
+E5-Small v2 (Pretrained Competitor),117,What are the symptoms of Heart Attack ?,doc_117,True,1.0
+E5-Small v2 (Pretrained Competitor),118,How many people are affected by sialic acid storage disease ?,doc_118,True,1.0
+E5-Small v2 (Pretrained Competitor),119,What is (are) Pityriasis rubra pilaris ?,doc_119,True,1.0
+E5-Small v2 (Pretrained Competitor),120,What is the outlook for Hydromyelia ?,doc_120,True,1.0
+E5-Small v2 (Pretrained Competitor),121,What is the outlook for Pseudotumor Cerebri ?,doc_31,False,0.5
+E5-Small v2 (Pretrained Competitor),122,What are the genetic changes related to essential thrombocythemia ?,doc_122,True,1.0
+E5-Small v2 (Pretrained Competitor),123,What are the treatments for ring chromosome 14 syndrome ?,doc_123,True,1.0
+E5-Small v2 (Pretrained Competitor),124,What is (are) Carpal Tunnel Syndrome ?,doc_124,True,1.0
+E5-Small v2 (Pretrained Competitor),125,What is (are) Dumping Syndrome ?,doc_177,False,0.0
+E5-Small v2 (Pretrained Competitor),126,What is (are) Pneumonia ?,doc_126,True,1.0
+E5-Small v2 (Pretrained Competitor),127,Who is at risk for Colorectal Cancer? ?,doc_127,True,1.0
+E5-Small v2 (Pretrained Competitor),128,Who is at risk for Pernicious Anemia? ?,doc_128,True,1.0
+E5-Small v2 (Pretrained Competitor),129,How to prevent Endocarditis ?,doc_129,True,1.0
+E5-Small v2 (Pretrained Competitor),130,Is Multiple endocrine neoplasia type 2A inherited ?,doc_130,True,1.0
+E5-Small v2 (Pretrained Competitor),131,What is the outlook for Coma ?,doc_131,True,1.0
+E5-Small v2 (Pretrained Competitor),132,What is the outlook for Parathyroid Cancer ?,doc_181,False,0.5
+E5-Small v2 (Pretrained Competitor),133,How many people are affected by megalencephalic leukoencephalopathy with subcortical cysts ?,doc_133,True,1.0
+E5-Small v2 (Pretrained Competitor),134,How to diagnose Shingles ?,doc_134,True,1.0
+E5-Small v2 (Pretrained Competitor),135,How many people are affected by craniofacial microsomia ?,doc_135,True,1.0
+E5-Small v2 (Pretrained Competitor),136,What is the outlook for Nasopharyngeal Cancer ?,doc_136,True,1.0
+E5-Small v2 (Pretrained Competitor),137,What is (are) Chorea-acanthocytosis ?,doc_137,True,1.0
+E5-Small v2 (Pretrained Competitor),138,What are the genetic changes related to PRICKLE1-related progressive myoclonus epilepsy with ataxia ?,doc_138,True,1.0
+E5-Small v2 (Pretrained Competitor),139,What is the outlook for Sturge-Weber Syndrome ?,doc_166,False,0.1111111111111111
+E5-Small v2 (Pretrained Competitor),140,How to prevent Immune Thrombocytopenia ?,doc_140,True,1.0
+E5-Small v2 (Pretrained Competitor),141,What are the symptoms of Intestinal Pseudo-obstruction ?,doc_141,True,1.0
+E5-Small v2 (Pretrained Competitor),142,What is (are) Snyder-Robinson syndrome ?,doc_142,True,1.0
+E5-Small v2 (Pretrained Competitor),143,What are the genetic changes related to chorea-acanthocytosis ?,doc_137,False,0.5
+E5-Small v2 (Pretrained Competitor),144,Do you have information about Artificial Limbs,doc_144,True,1.0
+E5-Small v2 (Pretrained Competitor),145,What are the genetic changes related to primary carnitine deficiency ?,doc_145,True,1.0
+E5-Small v2 (Pretrained Competitor),146,What to do for Cyclic Vomiting Syndrome ?,doc_146,True,1.0
+E5-Small v2 (Pretrained Competitor),147,Who is at risk for Langerhans Cell Histiocytosis? ?,doc_160,False,0.0
+E5-Small v2 (Pretrained Competitor),148,"What are the symptoms of Polyhydramnios, megalencephaly, and symptomatic epilepsy syndrome ?",doc_148,True,1.0
+E5-Small v2 (Pretrained Competitor),149,What is the outlook for Pituitary Tumors ?,doc_149,True,1.0
+E5-Small v2 (Pretrained Competitor),150,What are the genetic changes related to microphthalmia with linear skin defects syndrome ?,doc_150,True,1.0
+E5-Small v2 (Pretrained Competitor),151,What are the treatments for Eales disease ?,doc_151,True,1.0
+E5-Small v2 (Pretrained Competitor),152,What causes Pyruvate kinase deficiency ?,doc_152,True,1.0
+E5-Small v2 (Pretrained Competitor),153,Do you have information about Foot Health,doc_153,True,1.0
+E5-Small v2 (Pretrained Competitor),154,What are the symptoms of Thai symphalangism syndrome ?,doc_154,True,1.0
+E5-Small v2 (Pretrained Competitor),155,What causes Shingles ?,doc_155,True,1.0
+E5-Small v2 (Pretrained Competitor),156,How to prevent Mitral Valve Prolapse ?,doc_156,True,1.0
+E5-Small v2 (Pretrained Competitor),157,What are the stages of Rectal Cancer ?,doc_157,True,1.0
+E5-Small v2 (Pretrained Competitor),158,What are the treatments for Idiopathic juxtafoveal retinal telangiectasia ?,doc_158,True,1.0
+E5-Small v2 (Pretrained Competitor),159,Is Fryns syndrome inherited ?,doc_159,True,1.0
+E5-Small v2 (Pretrained Competitor),160,What is (are) ALG1-congenital disorder of glycosylation ?,doc_160,True,1.0
+E5-Small v2 (Pretrained Competitor),161,What is the outlook for Non-Small Cell Lung Cancer ?,doc_59,False,0.5
+E5-Small v2 (Pretrained Competitor),162,How many people are affected by cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy ?,doc_133,False,0.0
+E5-Small v2 (Pretrained Competitor),163,What are the treatments for Financial Help for Diabetes Care ?,doc_163,True,1.0
+E5-Small v2 (Pretrained Competitor),164,How many people are affected by spastic paraplegia type 15 ?,doc_164,True,1.0
+E5-Small v2 (Pretrained Competitor),165,What are the treatments for tyrosinemia ?,doc_165,True,1.0
+E5-Small v2 (Pretrained Competitor),166,What is (are) L1 syndrome ?,doc_166,True,1.0
+E5-Small v2 (Pretrained Competitor),167,What are the symptoms of Acromegaly ?,doc_167,True,1.0
+E5-Small v2 (Pretrained Competitor),168,What is (are) Baller-Gerold syndrome ?,doc_168,True,1.0
+E5-Small v2 (Pretrained Competitor),169,Do you have information about Veterans and Military Health,doc_169,True,1.0
+E5-Small v2 (Pretrained Competitor),170,What are the symptoms of Pycnodysostosis ?,doc_170,True,1.0
+E5-Small v2 (Pretrained Competitor),171,What is (are) Myasthenia Gravis ?,doc_171,True,1.0
+E5-Small v2 (Pretrained Competitor),172,What are the genetic changes related to ovarian cancer ?,doc_172,True,1.0
+E5-Small v2 (Pretrained Competitor),173,What is the outlook for Metastatic Squamous Neck Cancer with Occult Primary ?,doc_11,False,0.3333333333333333
+E5-Small v2 (Pretrained Competitor),174,What are the symptoms of Juvenile Myelomonocytic Leukemia ?,doc_174,True,1.0
+E5-Small v2 (Pretrained Competitor),175,What causes Renal Artery Stenosis ?,doc_175,True,1.0
+E5-Small v2 (Pretrained Competitor),176,What are the symptoms of Mandibulofacial dysostosis with microcephaly ?,doc_176,True,1.0
+E5-Small v2 (Pretrained Competitor),177,What is (are) Renpenning syndrome ?,doc_177,True,1.0
+E5-Small v2 (Pretrained Competitor),178,What is the outlook for Gallbladder Cancer ?,doc_178,True,1.0
+E5-Small v2 (Pretrained Competitor),179,What is the outlook for Peripheral Neuropathy ?,doc_241,False,0.5
+E5-Small v2 (Pretrained Competitor),180,What are the symptoms of Amish infantile epilepsy syndrome ?,doc_180,True,1.0
+E5-Small v2 (Pretrained Competitor),181,What is the outlook for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?,doc_186,False,0.2
+E5-Small v2 (Pretrained Competitor),182,What are the genetic changes related to heterotaxy syndrome ?,doc_182,True,1.0
+E5-Small v2 (Pretrained Competitor),183,What are the symptoms of Osteogenesis imperfecta Levin type ?,doc_183,True,1.0
+E5-Small v2 (Pretrained Competitor),184,Who is at risk for Childhood Brain Stem Glioma? ?,doc_184,True,1.0
+E5-Small v2 (Pretrained Competitor),185,How many people are affected by Friedreich ataxia ?,doc_185,True,1.0
+E5-Small v2 (Pretrained Competitor),186,What is (are) Childhood Central Nervous System Germ Cell Tumors ?,doc_186,True,1.0
+E5-Small v2 (Pretrained Competitor),187,What is (are) Myotonia congenita autosomal dominant ?,doc_187,True,1.0
+E5-Small v2 (Pretrained Competitor),188,What are the treatments for hereditary spherocytosis ?,doc_188,True,1.0
+E5-Small v2 (Pretrained Competitor),189,What are the treatments for Transient Ischemic Attack ?,doc_189,True,1.0
+E5-Small v2 (Pretrained Competitor),190,What are the symptoms of Patterned dystrophy of retinal pigment epithelium ?,doc_190,True,1.0
+E5-Small v2 (Pretrained Competitor),191,"What are the symptoms of Palmoplantar keratoderma, epidermolytic ?",doc_191,True,1.0
+E5-Small v2 (Pretrained Competitor),192,How to diagnose Pyruvate kinase deficiency ?,doc_152,False,0.3333333333333333
+E5-Small v2 (Pretrained Competitor),193,What are the symptoms of Diabetic Neuropathies: The Nerve Damage of Diabetes ?,doc_193,True,1.0
+E5-Small v2 (Pretrained Competitor),194,How many people are affected by chylomicron retention disease ?,doc_194,True,1.0
+E5-Small v2 (Pretrained Competitor),195,What is (are) granulomatosis with polyangiitis ?,doc_195,True,1.0
+E5-Small v2 (Pretrained Competitor),196,What are the treatments for Depression ?,doc_56,False,0.3333333333333333
+E5-Small v2 (Pretrained Competitor),197,How many people are affected by ZAP70-related severe combined immunodeficiency ?,doc_197,True,1.0
+E5-Small v2 (Pretrained Competitor),198,What are the treatments for Atrial Fibrillation and Stroke ?,doc_189,False,0.5
+E5-Small v2 (Pretrained Competitor),199,What is (are) Knee Replacement ?,doc_199,True,1.0
+E5-Small v2 (Pretrained Competitor),200,What is (are) Klinefelter syndrome ?,doc_200,True,1.0
+E5-Small v2 (Pretrained Competitor),201,"What are the genetic changes related to Ohdo syndrome, Maat-Kievit-Brunner type ?",doc_201,True,1.0
+E5-Small v2 (Pretrained Competitor),202,What is (are) Pericarditis ?,doc_202,True,1.0
+E5-Small v2 (Pretrained Competitor),203,What are the treatments for Heart Failure ?,doc_203,True,1.0
+E5-Small v2 (Pretrained Competitor),204,How many people are affected by Wolman disease ?,doc_204,True,1.0
+E5-Small v2 (Pretrained Competitor),205,What are the symptoms of Diabetic Kidney Disease ?,doc_205,True,1.0
+E5-Small v2 (Pretrained Competitor),206,What are the treatments for Parasites - Toxoplasmosis (Toxoplasma infection) ?,doc_206,True,1.0
+E5-Small v2 (Pretrained Competitor),207,What are the treatments for X-linked adrenal hypoplasia congenita ?,doc_207,True,1.0
+E5-Small v2 (Pretrained Competitor),208,How many people are affected by amelogenesis imperfecta ?,doc_208,True,1.0
+E5-Small v2 (Pretrained Competitor),209,Do you have information about Limb Loss,doc_209,True,1.0
+E5-Small v2 (Pretrained Competitor),210,What is (are) adult-onset leukoencephalopathy with axonal spheroids and pigmented glia ?,doc_210,True,1.0
+E5-Small v2 (Pretrained Competitor),211,What are the treatments for Danon disease ?,doc_211,True,1.0
+E5-Small v2 (Pretrained Competitor),212,What are the symptoms of Tubulointerstitial nephritis and uveitis ?,doc_212,True,1.0
+E5-Small v2 (Pretrained Competitor),213,What is (are) High Blood Cholesterol ?,doc_213,True,1.0
+E5-Small v2 (Pretrained Competitor),214,What is (are) Cushing disease ?,doc_214,True,1.0
+E5-Small v2 (Pretrained Competitor),215,What is (are) Hennekam syndrome ?,doc_215,True,1.0
+E5-Small v2 (Pretrained Competitor),216,What are the treatments for gnathodiaphyseal dysplasia ?,doc_216,True,1.0
+E5-Small v2 (Pretrained Competitor),217,What is (are) Trigeminal Neuralgia ?,doc_217,True,1.0
+E5-Small v2 (Pretrained Competitor),218,What is (are) Stress ?,doc_218,True,1.0
+E5-Small v2 (Pretrained Competitor),219,How to prevent Diabetic Kidney Disease ?,doc_219,True,1.0
+E5-Small v2 (Pretrained Competitor),220,What is (are) Steatocystoma multiplex ?,doc_220,True,1.0
+E5-Small v2 (Pretrained Competitor),221,What are the symptoms of Mental retardation X-linked syndromic 11 ?,doc_221,True,1.0
+E5-Small v2 (Pretrained Competitor),222,What causes Punctate palmoplantar keratoderma type I ?,doc_222,True,1.0
+E5-Small v2 (Pretrained Competitor),223,Do you have information about Triglycerides,doc_223,True,1.0
+E5-Small v2 (Pretrained Competitor),224,Do you have information about Healthy Living,doc_224,True,1.0
+E5-Small v2 (Pretrained Competitor),225,What is the outlook for Adult Acute Lymphoblastic Leukemia ?,doc_98,False,0.0
+E5-Small v2 (Pretrained Competitor),226,How many people are affected by X-linked infantile spasm syndrome ?,doc_226,True,1.0
+E5-Small v2 (Pretrained Competitor),227,What is (are) Stomach Cancer ?,doc_227,True,1.0
+E5-Small v2 (Pretrained Competitor),228,What is (are) Alopecia totalis ?,doc_228,True,1.0
+E5-Small v2 (Pretrained Competitor),229,How many people are affected by Cushing disease ?,doc_229,True,1.0
+E5-Small v2 (Pretrained Competitor),230,How many people are affected by Bart-Pumphrey syndrome ?,doc_230,True,1.0
+E5-Small v2 (Pretrained Competitor),231,What are the symptoms of Hemangioma thrombocytopenia syndrome ?,doc_231,True,1.0
+E5-Small v2 (Pretrained Competitor),232,What are the treatments for Adult Soft Tissue Sarcoma ?,doc_232,True,1.0
+E5-Small v2 (Pretrained Competitor),233,What is (are) Asthma in Children ?,doc_233,True,1.0
+E5-Small v2 (Pretrained Competitor),234,What are the treatments for spinal and bulbar muscular atrophy ?,doc_234,True,1.0
+E5-Small v2 (Pretrained Competitor),235,What is the outlook for Klippel-Trenaunay Syndrome (KTS) ?,doc_15,False,0.5
+E5-Small v2 (Pretrained Competitor),236,what research (or clinical trials) is being done for Spinal Cord Infarction ?,doc_236,True,1.0
+E5-Small v2 (Pretrained Competitor),237,Is centronuclear myopathy inherited ?,doc_237,True,1.0
+E5-Small v2 (Pretrained Competitor),238,What is (are) Leprechaunism ?,doc_238,True,1.0
+E5-Small v2 (Pretrained Competitor),239,What are the treatments for benign essential blepharospasm ?,doc_239,True,1.0
+E5-Small v2 (Pretrained Competitor),240,Do you have information about Child Dental Health,doc_240,True,1.0
+E5-Small v2 (Pretrained Competitor),241,What are the treatments for Peripheral Neuropathy ?,doc_241,True,1.0
+E5-Small v2 (Pretrained Competitor),242,What is (are) Cerebral Hypoxia ?,doc_242,True,1.0
+E5-Small v2 (Pretrained Competitor),243,What is (are) Primary Ciliary Dyskinesia ?,doc_45,False,0.5
+E5-Small v2 (Pretrained Competitor),244,Is Metachromatic leukodystrophy inherited ?,doc_244,True,1.0
+E5-Small v2 (Pretrained Competitor),245,What are the treatments for Isovaleric acidemia ?,doc_245,True,1.0
+E5-Small v2 (Pretrained Competitor),246,what research (or clinical trials) is being done for Cerebral Hypoxia ?,doc_246,True,1.0
+E5-Small v2 (Pretrained Competitor),247,What is (are) Juvenile osteoporosis ?,doc_247,True,1.0
+E5-Small v2 (Pretrained Competitor),248,What are the treatments for UV-sensitive syndrome ?,doc_248,True,1.0
+E5-Small v2 (Pretrained Competitor),249,What are the genetic changes related to hereditary sensory and autonomic neuropathy type II ?,doc_35,False,0.5
+GTE-Small (Pretrained Competitor),0,How many people are affected by X-linked spondyloepiphyseal dysplasia tarda ?,doc_0,True,1.0
+GTE-Small (Pretrained Competitor),1,Is Hereditary multiple osteochondromas inherited ?,doc_1,True,1.0
+GTE-Small (Pretrained Competitor),2,What are the symptoms of Mucopolysaccharidosis type IIID ?,doc_2,True,1.0
+GTE-Small (Pretrained Competitor),3,How to prevent High Blood Pressure ?,doc_3,True,1.0
+GTE-Small (Pretrained Competitor),4,What are the symptoms of Von Hippel-Lindau disease ?,doc_4,True,1.0
+GTE-Small (Pretrained Competitor),5,what research (or clinical trials) is being done for Hypersomnia ?,doc_5,True,1.0
+GTE-Small (Pretrained Competitor),6,What are the symptoms of GM1 gangliosidosis type 2 ?,doc_6,True,1.0
+GTE-Small (Pretrained Competitor),7,What is (are) Cryptosporidiosis ?,doc_7,True,1.0
+GTE-Small (Pretrained Competitor),8,What are the symptoms of Human T-cell leukemia virus type 2 ?,doc_8,True,1.0
+GTE-Small (Pretrained Competitor),9,What are the genetic changes related to spinocerebellar ataxia type 1 ?,doc_77,False,0.3333333333333333
+GTE-Small (Pretrained Competitor),10,Is X-linked congenital stationary night blindness inherited ?,doc_10,True,1.0
+GTE-Small (Pretrained Competitor),11,What is the outlook for Adult Central Nervous System Tumors ?,doc_149,False,0.5
+GTE-Small (Pretrained Competitor),12,How many people are affected by gnathodiaphyseal dysplasia ?,doc_12,True,1.0
+GTE-Small (Pretrained Competitor),13,What are the treatments for Malignant eccrine spiradenoma ?,doc_13,True,1.0
+GTE-Small (Pretrained Competitor),14,"What are the symptoms of Epilepsy, benign occipital ?",doc_14,True,1.0
+GTE-Small (Pretrained Competitor),15,Is Klippel-Trenaunay syndrome inherited ?,doc_15,True,1.0
+GTE-Small (Pretrained Competitor),16,What are the treatments for Parasites - Cyclosporiasis (Cyclospora Infection) ?,doc_16,True,1.0
+GTE-Small (Pretrained Competitor),17,What is the outlook for Gastrointestinal Carcinoid Tumors ?,doc_17,True,1.0
+GTE-Small (Pretrained Competitor),18,What are the genetic changes related to campomelic dysplasia ?,doc_18,True,1.0
+GTE-Small (Pretrained Competitor),19,What causes Factor V deficiency ?,doc_19,True,1.0
+GTE-Small (Pretrained Competitor),20,What is (are) Lattice corneal dystrophy type 3A ?,doc_20,True,1.0
+GTE-Small (Pretrained Competitor),21,Do you have information about Infant and Newborn Nutrition,doc_21,True,1.0
+GTE-Small (Pretrained Competitor),22,Is Liddle syndrome inherited ?,doc_22,True,1.0
+GTE-Small (Pretrained Competitor),23,What causes What I need to know about Erectile Dysfunction ?,doc_23,True,1.0
+GTE-Small (Pretrained Competitor),24,Who is at risk for Kyasanur Forest Disease (KFD)? ?,doc_24,True,1.0
+GTE-Small (Pretrained Competitor),25,What are the treatments for PPM-X syndrome ?,doc_25,True,1.0
+GTE-Small (Pretrained Competitor),26,What causes Diffuse gastric cancer ?,doc_26,True,1.0
+GTE-Small (Pretrained Competitor),27,What are the symptoms of Microcephalic osteodysplastic primordial dwarfism type 1 ?,doc_27,True,1.0
+GTE-Small (Pretrained Competitor),28,What is the outlook for Extragonadal Germ Cell Tumors ?,doc_186,False,0.5
+GTE-Small (Pretrained Competitor),29,What are the genetic changes related to tetra-amelia syndrome ?,doc_29,True,1.0
+GTE-Small (Pretrained Competitor),30,What are the symptoms of Diabetic Retinopathy ?,doc_205,False,0.3333333333333333
+GTE-Small (Pretrained Competitor),31,What are the treatments for Pseudotumor Cerebri ?,doc_31,True,1.0
+GTE-Small (Pretrained Competitor),32,How many people are affected by mitochondrial trifunctional protein deficiency ?,doc_32,True,1.0
+GTE-Small (Pretrained Competitor),33,What is (are) Danon disease ?,doc_33,True,1.0
+GTE-Small (Pretrained Competitor),34,What are the treatments for Ewing Sarcoma ?,doc_34,True,1.0
+GTE-Small (Pretrained Competitor),35,What is (are) Hereditary sensory and autonomic neuropathy ?,doc_35,True,1.0
+GTE-Small (Pretrained Competitor),36,Do you have information about A1C,doc_36,True,1.0
+GTE-Small (Pretrained Competitor),37,Is Mondini dysplasia inherited ?,doc_37,True,1.0
+GTE-Small (Pretrained Competitor),38,What are the symptoms of Legius syndrome ?,doc_38,True,1.0
+GTE-Small (Pretrained Competitor),39,What are the symptoms of X-linked hypohidrotic ectodermal dysplasia ?,doc_39,True,1.0
+GTE-Small (Pretrained Competitor),40,What is (are) Mycosis Fungoides and the Szary Syndrome ?,doc_40,True,1.0
+GTE-Small (Pretrained Competitor),41,What are the symptoms of Chronic Fatigue Syndrome (CFS) ?,doc_41,True,1.0
+GTE-Small (Pretrained Competitor),42,Is Postural orthostatic tachycardia syndrome inherited ?,doc_42,True,1.0
+GTE-Small (Pretrained Competitor),43,What is (are) Striatonigral Degeneration ?,doc_43,True,1.0
+GTE-Small (Pretrained Competitor),44,What is (are) Junctional epidermolysis bullosa ?,doc_44,True,1.0
+GTE-Small (Pretrained Competitor),45,Who is at risk for Primary Ciliary Dyskinesia? ?,doc_45,True,1.0
+GTE-Small (Pretrained Competitor),46,What are the genetic changes related to pyruvate kinase deficiency ?,doc_152,False,0.5
+GTE-Small (Pretrained Competitor),47,What is (are) Stve-Wiedemann syndrome ?,doc_47,True,1.0
+GTE-Small (Pretrained Competitor),48,What is (are) PMM2-congenital disorder of glycosylation ?,doc_48,True,1.0
+GTE-Small (Pretrained Competitor),49,what research (or clinical trials) is being done for Kidney Disease ?,doc_49,True,1.0
+GTE-Small (Pretrained Competitor),50,What is (are) Limb-girdle muscular dystrophy ?,doc_50,True,1.0
+GTE-Small (Pretrained Competitor),51,What are the genetic changes related to combined pituitary hormone deficiency ?,doc_51,True,1.0
+GTE-Small (Pretrained Competitor),52,How many people are affected by alveolar capillary dysplasia with misalignment of pulmonary veins ?,doc_208,False,0.0
+GTE-Small (Pretrained Competitor),53,How to prevent Heart Failure ?,doc_53,True,1.0
+GTE-Small (Pretrained Competitor),54,What is (are) Ehlers-Danlos syndrome ?,doc_54,True,1.0
+GTE-Small (Pretrained Competitor),55,Is Waldenstrm macroglobulinemia inherited ?,doc_55,True,1.0
+GTE-Small (Pretrained Competitor),56,What are the treatments for Alpha-thalassemia ?,doc_56,True,1.0
+GTE-Small (Pretrained Competitor),57,What is (are) Acute Disseminated Encephalomyelitis ?,doc_57,True,1.0
+GTE-Small (Pretrained Competitor),58,What causes Tylosis with esophageal cancer ?,doc_58,True,1.0
+GTE-Small (Pretrained Competitor),59,What is (are) Lung Cancer ?,doc_59,True,1.0
+GTE-Small (Pretrained Competitor),60,what research (or clinical trials) is being done for Neurosyphilis ?,doc_60,True,1.0
+GTE-Small (Pretrained Competitor),61,what research (or clinical trials) is being done for Brown-Sequard Syndrome ?,doc_61,True,1.0
+GTE-Small (Pretrained Competitor),62,What is (are) Cardiogenic Shock ?,doc_62,True,1.0
+GTE-Small (Pretrained Competitor),63,What are the genetic changes related to Simpson-Golabi-Behmel syndrome ?,doc_63,True,1.0
+GTE-Small (Pretrained Competitor),64,How to diagnose Neurofibromatosis type 1 ?,doc_64,True,1.0
+GTE-Small (Pretrained Competitor),65,"What are the treatments for 46,XX testicular disorder of sex development ?",doc_65,True,1.0
+GTE-Small (Pretrained Competitor),66,How many people are affected by trichothiodystrophy ?,doc_66,True,1.0
+GTE-Small (Pretrained Competitor),67,What are the symptoms of Familial hypocalciuric hypercalcemia type 1 ?,doc_67,True,1.0
+GTE-Small (Pretrained Competitor),68,What causes Peripheral Arterial Disease (P.A.D.) ?,doc_68,True,1.0
+GTE-Small (Pretrained Competitor),69,What is (are) Rh Incompatibility ?,doc_69,True,1.0
+GTE-Small (Pretrained Competitor),70,What are the symptoms of Doyne honeycomb retinal dystrophy ?,doc_70,True,1.0
+GTE-Small (Pretrained Competitor),71,What is (are) ankylosing spondylitis ?,doc_71,True,1.0
+GTE-Small (Pretrained Competitor),72,What are the treatments for Disseminated peritoneal leiomyomatosis ?,doc_72,True,1.0
+GTE-Small (Pretrained Competitor),73,What are the treatments for Tetralogy of Fallot ?,doc_73,True,1.0
+GTE-Small (Pretrained Competitor),74,What are the symptoms of Omodysplasia 2 ?,doc_74,True,1.0
+GTE-Small (Pretrained Competitor),75,What are the symptoms of Cronkhite-Canada disease ?,doc_75,True,1.0
+GTE-Small (Pretrained Competitor),76,What are the symptoms of Sarcosinemia ?,doc_76,True,1.0
+GTE-Small (Pretrained Competitor),77,What causes Pontocerebellar hypoplasia type 1 ?,doc_77,True,1.0
+GTE-Small (Pretrained Competitor),78,What is (are) Diabetes ?,doc_78,True,1.0
+GTE-Small (Pretrained Competitor),79,What is (are) Ovarian sex cord tumor with annular tubules ?,doc_79,True,1.0
+GTE-Small (Pretrained Competitor),80,What is (are) Darier disease ?,doc_80,True,1.0
+GTE-Small (Pretrained Competitor),81,How many people are affected by Alzheimer disease ?,doc_81,True,1.0
+GTE-Small (Pretrained Competitor),82,What is (are) Joubert syndrome ?,doc_82,True,1.0
+GTE-Small (Pretrained Competitor),83,What are the symptoms of Baller-Gerold syndrome ?,doc_83,True,1.0
+GTE-Small (Pretrained Competitor),84,What are the genetic changes related to otopalatodigital syndrome type 1 ?,doc_84,True,1.0
+GTE-Small (Pretrained Competitor),85,How to diagnose Hanhart syndrome ?,doc_85,True,1.0
+GTE-Small (Pretrained Competitor),86,How many people are affected by pyruvate carboxylase deficiency ?,doc_86,True,1.0
+GTE-Small (Pretrained Competitor),87,What is (are) multiple mitochondrial dysfunctions syndrome ?,doc_87,True,1.0
+GTE-Small (Pretrained Competitor),88,"What are the symptoms of Dystonia 6, torsion ?",doc_88,True,1.0
+GTE-Small (Pretrained Competitor),89,What is (are) Cyclic Vomiting Syndrome ?,doc_146,False,0.5
+GTE-Small (Pretrained Competitor),90,What is (are) What I need to know about Lactose Intolerance ?,doc_90,True,1.0
+GTE-Small (Pretrained Competitor),91,What are the symptoms of Tay-Sachs disease ?,doc_91,True,1.0
+GTE-Small (Pretrained Competitor),92,What is the outlook for Febrile Seizures ?,doc_92,True,1.0
+GTE-Small (Pretrained Competitor),93,What are the treatments for gyrate atrophy of the choroid and retina ?,doc_93,True,1.0
+GTE-Small (Pretrained Competitor),94,What are the treatments for activated PI3K-delta syndrome ?,doc_94,True,1.0
+GTE-Small (Pretrained Competitor),95,How to diagnose Cirrhosis ?,doc_95,True,1.0
+GTE-Small (Pretrained Competitor),96,What is the outlook for Prostate Cancer ?,doc_96,True,1.0
+GTE-Small (Pretrained Competitor),97,"Is Ehlers-Danlos syndrome, dermatosparaxis type inherited ?",doc_97,True,1.0
+GTE-Small (Pretrained Competitor),98,What are the stages of Chronic Myelogenous Leukemia ?,doc_98,True,1.0
+GTE-Small (Pretrained Competitor),99,What is (are) Esophagus Disorders ?,doc_99,True,1.0
+GTE-Small (Pretrained Competitor),100,What are the treatments for Thrombocytopenia ?,doc_100,True,1.0
+GTE-Small (Pretrained Competitor),101,What are the treatments for familial dysautonomia ?,doc_101,True,1.0
+GTE-Small (Pretrained Competitor),102,Is psoriatic arthritis inherited ?,doc_102,True,1.0
+GTE-Small (Pretrained Competitor),103,What are the treatments for atelosteogenesis type 3 ?,doc_103,True,1.0
+GTE-Small (Pretrained Competitor),104,What is (are) Meier-Gorlin syndrome ?,doc_104,True,1.0
+GTE-Small (Pretrained Competitor),105,What are the treatments for Factor XIII deficiency ?,doc_105,True,1.0
+GTE-Small (Pretrained Competitor),106,What is (are) High Blood Pressure in Pregnancy ?,doc_106,True,1.0
+GTE-Small (Pretrained Competitor),107,What is (are) spondyloepiphyseal dysplasia congenita ?,doc_107,True,1.0
+GTE-Small (Pretrained Competitor),108,What are the symptoms of Vasculitis ?,doc_108,True,1.0
+GTE-Small (Pretrained Competitor),109,Is X-linked myotubular myopathy inherited ?,doc_109,True,1.0
+GTE-Small (Pretrained Competitor),110,What is the outlook for Wilms Tumor and Other Childhood Kidney Tumors ?,doc_110,True,1.0
+GTE-Small (Pretrained Competitor),111,What is (are) Glossopharyngeal Neuralgia ?,doc_111,True,1.0
+GTE-Small (Pretrained Competitor),112,What is (are) Axenfeld-Rieger syndrome type 1 ?,doc_112,True,1.0
+GTE-Small (Pretrained Competitor),113,What are the treatments for Y chromosome infertility ?,doc_113,True,1.0
+GTE-Small (Pretrained Competitor),114,What is (are) Parkinson's Disease ?,doc_114,True,1.0
+GTE-Small (Pretrained Competitor),115,What causes Gas in the Digestive Tract ?,doc_115,True,1.0
+GTE-Small (Pretrained Competitor),116,How to prevent Peripheral Arterial Disease (P.A.D.) ?,doc_116,True,1.0
+GTE-Small (Pretrained Competitor),117,What are the symptoms of Heart Attack ?,doc_117,True,1.0
+GTE-Small (Pretrained Competitor),118,How many people are affected by sialic acid storage disease ?,doc_118,True,1.0
+GTE-Small (Pretrained Competitor),119,What is (are) Pityriasis rubra pilaris ?,doc_119,True,1.0
+GTE-Small (Pretrained Competitor),120,What is the outlook for Hydromyelia ?,doc_120,True,1.0
+GTE-Small (Pretrained Competitor),121,What is the outlook for Pseudotumor Cerebri ?,doc_31,False,0.5
+GTE-Small (Pretrained Competitor),122,What are the genetic changes related to essential thrombocythemia ?,doc_122,True,1.0
+GTE-Small (Pretrained Competitor),123,What are the treatments for ring chromosome 14 syndrome ?,doc_123,True,1.0
+GTE-Small (Pretrained Competitor),124,What is (are) Carpal Tunnel Syndrome ?,doc_124,True,1.0
+GTE-Small (Pretrained Competitor),125,What is (are) Dumping Syndrome ?,doc_146,False,0.0
+GTE-Small (Pretrained Competitor),126,What is (are) Pneumonia ?,doc_126,True,1.0
+GTE-Small (Pretrained Competitor),127,Who is at risk for Colorectal Cancer? ?,doc_127,True,1.0
+GTE-Small (Pretrained Competitor),128,Who is at risk for Pernicious Anemia? ?,doc_128,True,1.0
+GTE-Small (Pretrained Competitor),129,How to prevent Endocarditis ?,doc_129,True,1.0
+GTE-Small (Pretrained Competitor),130,Is Multiple endocrine neoplasia type 2A inherited ?,doc_130,True,1.0
+GTE-Small (Pretrained Competitor),131,What is the outlook for Coma ?,doc_131,True,1.0
+GTE-Small (Pretrained Competitor),132,What is the outlook for Parathyroid Cancer ?,doc_132,True,1.0
+GTE-Small (Pretrained Competitor),133,How many people are affected by megalencephalic leukoencephalopathy with subcortical cysts ?,doc_133,True,1.0
+GTE-Small (Pretrained Competitor),134,How to diagnose Shingles ?,doc_134,True,1.0
+GTE-Small (Pretrained Competitor),135,How many people are affected by craniofacial microsomia ?,doc_135,True,1.0
+GTE-Small (Pretrained Competitor),136,What is the outlook for Nasopharyngeal Cancer ?,doc_136,True,1.0
+GTE-Small (Pretrained Competitor),137,What is (are) Chorea-acanthocytosis ?,doc_137,True,1.0
+GTE-Small (Pretrained Competitor),138,What are the genetic changes related to PRICKLE1-related progressive myoclonus epilepsy with ataxia ?,doc_138,True,1.0
+GTE-Small (Pretrained Competitor),139,What is the outlook for Sturge-Weber Syndrome ?,doc_83,False,0.0
+GTE-Small (Pretrained Competitor),140,How to prevent Immune Thrombocytopenia ?,doc_140,True,1.0
+GTE-Small (Pretrained Competitor),141,What are the symptoms of Intestinal Pseudo-obstruction ?,doc_141,True,1.0
+GTE-Small (Pretrained Competitor),142,What is (are) Snyder-Robinson syndrome ?,doc_142,True,1.0
+GTE-Small (Pretrained Competitor),143,What are the genetic changes related to chorea-acanthocytosis ?,doc_137,False,0.5
+GTE-Small (Pretrained Competitor),144,Do you have information about Artificial Limbs,doc_144,True,1.0
+GTE-Small (Pretrained Competitor),145,What are the genetic changes related to primary carnitine deficiency ?,doc_145,True,1.0
+GTE-Small (Pretrained Competitor),146,What to do for Cyclic Vomiting Syndrome ?,doc_146,True,1.0
+GTE-Small (Pretrained Competitor),147,Who is at risk for Langerhans Cell Histiocytosis? ?,doc_147,True,1.0
+GTE-Small (Pretrained Competitor),148,"What are the symptoms of Polyhydramnios, megalencephaly, and symptomatic epilepsy syndrome ?",doc_148,True,1.0
+GTE-Small (Pretrained Competitor),149,What is the outlook for Pituitary Tumors ?,doc_149,True,1.0
+GTE-Small (Pretrained Competitor),150,What are the genetic changes related to microphthalmia with linear skin defects syndrome ?,doc_150,True,1.0
+GTE-Small (Pretrained Competitor),151,What are the treatments for Eales disease ?,doc_151,True,1.0
+GTE-Small (Pretrained Competitor),152,What causes Pyruvate kinase deficiency ?,doc_152,True,1.0
+GTE-Small (Pretrained Competitor),153,Do you have information about Foot Health,doc_153,True,1.0
+GTE-Small (Pretrained Competitor),154,What are the symptoms of Thai symphalangism syndrome ?,doc_154,True,1.0
+GTE-Small (Pretrained Competitor),155,What causes Shingles ?,doc_155,True,1.0
+GTE-Small (Pretrained Competitor),156,How to prevent Mitral Valve Prolapse ?,doc_156,True,1.0
+GTE-Small (Pretrained Competitor),157,What are the stages of Rectal Cancer ?,doc_157,True,1.0
+GTE-Small (Pretrained Competitor),158,What are the treatments for Idiopathic juxtafoveal retinal telangiectasia ?,doc_158,True,1.0
+GTE-Small (Pretrained Competitor),159,Is Fryns syndrome inherited ?,doc_159,True,1.0
+GTE-Small (Pretrained Competitor),160,What is (are) ALG1-congenital disorder of glycosylation ?,doc_160,True,1.0
+GTE-Small (Pretrained Competitor),161,What is the outlook for Non-Small Cell Lung Cancer ?,doc_161,True,1.0
+GTE-Small (Pretrained Competitor),162,How many people are affected by cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy ?,doc_133,False,0.0
+GTE-Small (Pretrained Competitor),163,What are the treatments for Financial Help for Diabetes Care ?,doc_163,True,1.0
+GTE-Small (Pretrained Competitor),164,How many people are affected by spastic paraplegia type 15 ?,doc_164,True,1.0
+GTE-Small (Pretrained Competitor),165,What are the treatments for tyrosinemia ?,doc_165,True,1.0
+GTE-Small (Pretrained Competitor),166,What is (are) L1 syndrome ?,doc_166,True,1.0
+GTE-Small (Pretrained Competitor),167,What are the symptoms of Acromegaly ?,doc_167,True,1.0
+GTE-Small (Pretrained Competitor),168,What is (are) Baller-Gerold syndrome ?,doc_168,True,1.0
+GTE-Small (Pretrained Competitor),169,Do you have information about Veterans and Military Health,doc_169,True,1.0
+GTE-Small (Pretrained Competitor),170,What are the symptoms of Pycnodysostosis ?,doc_170,True,1.0
+GTE-Small (Pretrained Competitor),171,What is (are) Myasthenia Gravis ?,doc_171,True,1.0
+GTE-Small (Pretrained Competitor),172,What are the genetic changes related to ovarian cancer ?,doc_172,True,1.0
+GTE-Small (Pretrained Competitor),173,What is the outlook for Metastatic Squamous Neck Cancer with Occult Primary ?,doc_11,False,0.5
+GTE-Small (Pretrained Competitor),174,What are the symptoms of Juvenile Myelomonocytic Leukemia ?,doc_174,True,1.0
+GTE-Small (Pretrained Competitor),175,What causes Renal Artery Stenosis ?,doc_175,True,1.0
+GTE-Small (Pretrained Competitor),176,What are the symptoms of Mandibulofacial dysostosis with microcephaly ?,doc_176,True,1.0
+GTE-Small (Pretrained Competitor),177,What is (are) Renpenning syndrome ?,doc_177,True,1.0
+GTE-Small (Pretrained Competitor),178,What is the outlook for Gallbladder Cancer ?,doc_178,True,1.0
+GTE-Small (Pretrained Competitor),179,What is the outlook for Peripheral Neuropathy ?,doc_241,False,0.3333333333333333
+GTE-Small (Pretrained Competitor),180,What are the symptoms of Amish infantile epilepsy syndrome ?,doc_180,True,1.0
+GTE-Small (Pretrained Competitor),181,What is the outlook for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?,doc_186,False,0.25
+GTE-Small (Pretrained Competitor),182,What are the genetic changes related to heterotaxy syndrome ?,doc_182,True,1.0
+GTE-Small (Pretrained Competitor),183,What are the symptoms of Osteogenesis imperfecta Levin type ?,doc_183,True,1.0
+GTE-Small (Pretrained Competitor),184,Who is at risk for Childhood Brain Stem Glioma? ?,doc_184,True,1.0
+GTE-Small (Pretrained Competitor),185,How many people are affected by Friedreich ataxia ?,doc_185,True,1.0
+GTE-Small (Pretrained Competitor),186,What is (are) Childhood Central Nervous System Germ Cell Tumors ?,doc_186,True,1.0
+GTE-Small (Pretrained Competitor),187,What is (are) Myotonia congenita autosomal dominant ?,doc_187,True,1.0
+GTE-Small (Pretrained Competitor),188,What are the treatments for hereditary spherocytosis ?,doc_188,True,1.0
+GTE-Small (Pretrained Competitor),189,What are the treatments for Transient Ischemic Attack ?,doc_189,True,1.0
+GTE-Small (Pretrained Competitor),190,What are the symptoms of Patterned dystrophy of retinal pigment epithelium ?,doc_190,True,1.0
+GTE-Small (Pretrained Competitor),191,"What are the symptoms of Palmoplantar keratoderma, epidermolytic ?",doc_191,True,1.0
+GTE-Small (Pretrained Competitor),192,How to diagnose Pyruvate kinase deficiency ?,doc_192,True,1.0
+GTE-Small (Pretrained Competitor),193,What are the symptoms of Diabetic Neuropathies: The Nerve Damage of Diabetes ?,doc_193,True,1.0
+GTE-Small (Pretrained Competitor),194,How many people are affected by chylomicron retention disease ?,doc_194,True,1.0
+GTE-Small (Pretrained Competitor),195,What is (are) granulomatosis with polyangiitis ?,doc_195,True,1.0
+GTE-Small (Pretrained Competitor),196,What are the treatments for Depression ?,doc_196,True,1.0
+GTE-Small (Pretrained Competitor),197,How many people are affected by ZAP70-related severe combined immunodeficiency ?,doc_197,True,1.0
+GTE-Small (Pretrained Competitor),198,What are the treatments for Atrial Fibrillation and Stroke ?,doc_198,True,1.0
+GTE-Small (Pretrained Competitor),199,What is (are) Knee Replacement ?,doc_199,True,1.0
+GTE-Small (Pretrained Competitor),200,What is (are) Klinefelter syndrome ?,doc_200,True,1.0
+GTE-Small (Pretrained Competitor),201,"What are the genetic changes related to Ohdo syndrome, Maat-Kievit-Brunner type ?",doc_201,True,1.0
+GTE-Small (Pretrained Competitor),202,What is (are) Pericarditis ?,doc_202,True,1.0
+GTE-Small (Pretrained Competitor),203,What are the treatments for Heart Failure ?,doc_203,True,1.0
+GTE-Small (Pretrained Competitor),204,How many people are affected by Wolman disease ?,doc_204,True,1.0
+GTE-Small (Pretrained Competitor),205,What are the symptoms of Diabetic Kidney Disease ?,doc_205,True,1.0
+GTE-Small (Pretrained Competitor),206,What are the treatments for Parasites - Toxoplasmosis (Toxoplasma infection) ?,doc_206,True,1.0
+GTE-Small (Pretrained Competitor),207,What are the treatments for X-linked adrenal hypoplasia congenita ?,doc_207,True,1.0
+GTE-Small (Pretrained Competitor),208,How many people are affected by amelogenesis imperfecta ?,doc_208,True,1.0
+GTE-Small (Pretrained Competitor),209,Do you have information about Limb Loss,doc_209,True,1.0
+GTE-Small (Pretrained Competitor),210,What is (are) adult-onset leukoencephalopathy with axonal spheroids and pigmented glia ?,doc_210,True,1.0
+GTE-Small (Pretrained Competitor),211,What are the treatments for Danon disease ?,doc_211,True,1.0
+GTE-Small (Pretrained Competitor),212,What are the symptoms of Tubulointerstitial nephritis and uveitis ?,doc_212,True,1.0
+GTE-Small (Pretrained Competitor),213,What is (are) High Blood Cholesterol ?,doc_213,True,1.0
+GTE-Small (Pretrained Competitor),214,What is (are) Cushing disease ?,doc_214,True,1.0
+GTE-Small (Pretrained Competitor),215,What is (are) Hennekam syndrome ?,doc_215,True,1.0
+GTE-Small (Pretrained Competitor),216,What are the treatments for gnathodiaphyseal dysplasia ?,doc_216,True,1.0
+GTE-Small (Pretrained Competitor),217,What is (are) Trigeminal Neuralgia ?,doc_217,True,1.0
+GTE-Small (Pretrained Competitor),218,What is (are) Stress ?,doc_218,True,1.0
+GTE-Small (Pretrained Competitor),219,How to prevent Diabetic Kidney Disease ?,doc_219,True,1.0
+GTE-Small (Pretrained Competitor),220,What is (are) Steatocystoma multiplex ?,doc_220,True,1.0
+GTE-Small (Pretrained Competitor),221,What are the symptoms of Mental retardation X-linked syndromic 11 ?,doc_221,True,1.0
+GTE-Small (Pretrained Competitor),222,What causes Punctate palmoplantar keratoderma type I ?,doc_222,True,1.0
+GTE-Small (Pretrained Competitor),223,Do you have information about Triglycerides,doc_223,True,1.0
+GTE-Small (Pretrained Competitor),224,Do you have information about Healthy Living,doc_224,True,1.0
+GTE-Small (Pretrained Competitor),225,What is the outlook for Adult Acute Lymphoblastic Leukemia ?,doc_174,False,0.3333333333333333
+GTE-Small (Pretrained Competitor),226,How many people are affected by X-linked infantile spasm syndrome ?,doc_226,True,1.0
+GTE-Small (Pretrained Competitor),227,What is (are) Stomach Cancer ?,doc_227,True,1.0
+GTE-Small (Pretrained Competitor),228,What is (are) Alopecia totalis ?,doc_228,True,1.0
+GTE-Small (Pretrained Competitor),229,How many people are affected by Cushing disease ?,doc_229,True,1.0
+GTE-Small (Pretrained Competitor),230,How many people are affected by Bart-Pumphrey syndrome ?,doc_230,True,1.0
+GTE-Small (Pretrained Competitor),231,What are the symptoms of Hemangioma thrombocytopenia syndrome ?,doc_231,True,1.0
+GTE-Small (Pretrained Competitor),232,What are the treatments for Adult Soft Tissue Sarcoma ?,doc_232,True,1.0
+GTE-Small (Pretrained Competitor),233,What is (are) Asthma in Children ?,doc_233,True,1.0
+GTE-Small (Pretrained Competitor),234,What are the treatments for spinal and bulbar muscular atrophy ?,doc_234,True,1.0
+GTE-Small (Pretrained Competitor),235,What is the outlook for Klippel-Trenaunay Syndrome (KTS) ?,doc_15,False,0.5
+GTE-Small (Pretrained Competitor),236,what research (or clinical trials) is being done for Spinal Cord Infarction ?,doc_236,True,1.0
+GTE-Small (Pretrained Competitor),237,Is centronuclear myopathy inherited ?,doc_237,True,1.0
+GTE-Small (Pretrained Competitor),238,What is (are) Leprechaunism ?,doc_238,True,1.0
+GTE-Small (Pretrained Competitor),239,What are the treatments for benign essential blepharospasm ?,doc_239,True,1.0
+GTE-Small (Pretrained Competitor),240,Do you have information about Child Dental Health,doc_240,True,1.0
+GTE-Small (Pretrained Competitor),241,What are the treatments for Peripheral Neuropathy ?,doc_241,True,1.0
+GTE-Small (Pretrained Competitor),242,What is (are) Cerebral Hypoxia ?,doc_242,True,1.0
+GTE-Small (Pretrained Competitor),243,What is (are) Primary Ciliary Dyskinesia ?,doc_45,False,0.5
+GTE-Small (Pretrained Competitor),244,Is Metachromatic leukodystrophy inherited ?,doc_244,True,1.0
+GTE-Small (Pretrained Competitor),245,What are the treatments for Isovaleric acidemia ?,doc_245,True,1.0
+GTE-Small (Pretrained Competitor),246,what research (or clinical trials) is being done for Cerebral Hypoxia ?,doc_246,True,1.0
+GTE-Small (Pretrained Competitor),247,What is (are) Juvenile osteoporosis ?,doc_247,True,1.0
+GTE-Small (Pretrained Competitor),248,What are the treatments for UV-sensitive syndrome ?,doc_248,True,1.0
+GTE-Small (Pretrained Competitor),249,What are the genetic changes related to hereditary sensory and autonomic neuropathy type II ?,doc_35,False,0.5
+All-MiniLM-L6-v2 (General Baseline),0,How many people are affected by X-linked spondyloepiphyseal dysplasia tarda ?,doc_0,True,1.0
+All-MiniLM-L6-v2 (General Baseline),1,Is Hereditary multiple osteochondromas inherited ?,doc_1,True,1.0
+All-MiniLM-L6-v2 (General Baseline),2,What are the symptoms of Mucopolysaccharidosis type IIID ?,doc_2,True,1.0
+All-MiniLM-L6-v2 (General Baseline),3,How to prevent High Blood Pressure ?,doc_3,True,1.0
+All-MiniLM-L6-v2 (General Baseline),4,What are the symptoms of Von Hippel-Lindau disease ?,doc_4,True,1.0
+All-MiniLM-L6-v2 (General Baseline),5,what research (or clinical trials) is being done for Hypersomnia ?,doc_5,True,1.0
+All-MiniLM-L6-v2 (General Baseline),6,What are the symptoms of GM1 gangliosidosis type 2 ?,doc_6,True,1.0
+All-MiniLM-L6-v2 (General Baseline),7,What is (are) Cryptosporidiosis ?,doc_7,True,1.0
+All-MiniLM-L6-v2 (General Baseline),8,What are the symptoms of Human T-cell leukemia virus type 2 ?,doc_8,True,1.0
+All-MiniLM-L6-v2 (General Baseline),9,What are the genetic changes related to spinocerebellar ataxia type 1 ?,doc_77,False,0.2
+All-MiniLM-L6-v2 (General Baseline),10,Is X-linked congenital stationary night blindness inherited ?,doc_10,True,1.0
+All-MiniLM-L6-v2 (General Baseline),11,What is the outlook for Adult Central Nervous System Tumors ?,doc_149,False,0.3333333333333333
+All-MiniLM-L6-v2 (General Baseline),12,How many people are affected by gnathodiaphyseal dysplasia ?,doc_12,True,1.0
+All-MiniLM-L6-v2 (General Baseline),13,What are the treatments for Malignant eccrine spiradenoma ?,doc_13,True,1.0
+All-MiniLM-L6-v2 (General Baseline),14,"What are the symptoms of Epilepsy, benign occipital ?",doc_14,True,1.0
+All-MiniLM-L6-v2 (General Baseline),15,Is Klippel-Trenaunay syndrome inherited ?,doc_15,True,1.0
+All-MiniLM-L6-v2 (General Baseline),16,What are the treatments for Parasites - Cyclosporiasis (Cyclospora Infection) ?,doc_16,True,1.0
+All-MiniLM-L6-v2 (General Baseline),17,What is the outlook for Gastrointestinal Carcinoid Tumors ?,doc_17,True,1.0
+All-MiniLM-L6-v2 (General Baseline),18,What are the genetic changes related to campomelic dysplasia ?,doc_18,True,1.0
+All-MiniLM-L6-v2 (General Baseline),19,What causes Factor V deficiency ?,doc_19,True,1.0
+All-MiniLM-L6-v2 (General Baseline),20,What is (are) Lattice corneal dystrophy type 3A ?,doc_20,True,1.0
+All-MiniLM-L6-v2 (General Baseline),21,Do you have information about Infant and Newborn Nutrition,doc_21,True,1.0
+All-MiniLM-L6-v2 (General Baseline),22,Is Liddle syndrome inherited ?,doc_22,True,1.0
+All-MiniLM-L6-v2 (General Baseline),23,What causes What I need to know about Erectile Dysfunction ?,doc_23,True,1.0
+All-MiniLM-L6-v2 (General Baseline),24,Who is at risk for Kyasanur Forest Disease (KFD)? ?,doc_24,True,1.0
+All-MiniLM-L6-v2 (General Baseline),25,What are the treatments for PPM-X syndrome ?,doc_25,True,1.0
+All-MiniLM-L6-v2 (General Baseline),26,What causes Diffuse gastric cancer ?,doc_26,True,1.0
+All-MiniLM-L6-v2 (General Baseline),27,What are the symptoms of Microcephalic osteodysplastic primordial dwarfism type 1 ?,doc_27,True,1.0
+All-MiniLM-L6-v2 (General Baseline),28,What is the outlook for Extragonadal Germ Cell Tumors ?,doc_58,False,0.25
+All-MiniLM-L6-v2 (General Baseline),29,What are the genetic changes related to tetra-amelia syndrome ?,doc_29,True,1.0
+All-MiniLM-L6-v2 (General Baseline),30,What are the symptoms of Diabetic Retinopathy ?,doc_205,False,0.3333333333333333
+All-MiniLM-L6-v2 (General Baseline),31,What are the treatments for Pseudotumor Cerebri ?,doc_31,True,1.0
+All-MiniLM-L6-v2 (General Baseline),32,How many people are affected by mitochondrial trifunctional protein deficiency ?,doc_32,True,1.0
+All-MiniLM-L6-v2 (General Baseline),33,What is (are) Danon disease ?,doc_33,True,1.0
+All-MiniLM-L6-v2 (General Baseline),34,What are the treatments for Ewing Sarcoma ?,doc_34,True,1.0
+All-MiniLM-L6-v2 (General Baseline),35,What is (are) Hereditary sensory and autonomic neuropathy ?,doc_35,True,1.0
+All-MiniLM-L6-v2 (General Baseline),36,Do you have information about A1C,doc_36,True,1.0
+All-MiniLM-L6-v2 (General Baseline),37,Is Mondini dysplasia inherited ?,doc_37,True,1.0
+All-MiniLM-L6-v2 (General Baseline),38,What are the symptoms of Legius syndrome ?,doc_38,True,1.0
+All-MiniLM-L6-v2 (General Baseline),39,What are the symptoms of X-linked hypohidrotic ectodermal dysplasia ?,doc_39,True,1.0
+All-MiniLM-L6-v2 (General Baseline),40,What is (are) Mycosis Fungoides and the Szary Syndrome ?,doc_40,True,1.0
+All-MiniLM-L6-v2 (General Baseline),41,What are the symptoms of Chronic Fatigue Syndrome (CFS) ?,doc_41,True,1.0
+All-MiniLM-L6-v2 (General Baseline),42,Is Postural orthostatic tachycardia syndrome inherited ?,doc_42,True,1.0
+All-MiniLM-L6-v2 (General Baseline),43,What is (are) Striatonigral Degeneration ?,doc_43,True,1.0
+All-MiniLM-L6-v2 (General Baseline),44,What is (are) Junctional epidermolysis bullosa ?,doc_44,True,1.0
+All-MiniLM-L6-v2 (General Baseline),45,Who is at risk for Primary Ciliary Dyskinesia? ?,doc_45,True,1.0
+All-MiniLM-L6-v2 (General Baseline),46,What are the genetic changes related to pyruvate kinase deficiency ?,doc_152,False,0.5
+All-MiniLM-L6-v2 (General Baseline),47,What is (are) Stve-Wiedemann syndrome ?,doc_47,True,1.0
+All-MiniLM-L6-v2 (General Baseline),48,What is (are) PMM2-congenital disorder of glycosylation ?,doc_48,True,1.0
+All-MiniLM-L6-v2 (General Baseline),49,what research (or clinical trials) is being done for Kidney Disease ?,doc_49,True,1.0
+All-MiniLM-L6-v2 (General Baseline),50,What is (are) Limb-girdle muscular dystrophy ?,doc_50,True,1.0
+All-MiniLM-L6-v2 (General Baseline),51,What are the genetic changes related to combined pituitary hormone deficiency ?,doc_51,True,1.0
+All-MiniLM-L6-v2 (General Baseline),52,How many people are affected by alveolar capillary dysplasia with misalignment of pulmonary veins ?,doc_73,False,0.0
+All-MiniLM-L6-v2 (General Baseline),53,How to prevent Heart Failure ?,doc_53,True,1.0
+All-MiniLM-L6-v2 (General Baseline),54,What is (are) Ehlers-Danlos syndrome ?,doc_54,True,1.0
+All-MiniLM-L6-v2 (General Baseline),55,Is Waldenstrm macroglobulinemia inherited ?,doc_55,True,1.0
+All-MiniLM-L6-v2 (General Baseline),56,What are the treatments for Alpha-thalassemia ?,doc_56,True,1.0
+All-MiniLM-L6-v2 (General Baseline),57,What is (are) Acute Disseminated Encephalomyelitis ?,doc_57,True,1.0
+All-MiniLM-L6-v2 (General Baseline),58,What causes Tylosis with esophageal cancer ?,doc_58,True,1.0
+All-MiniLM-L6-v2 (General Baseline),59,What is (are) Lung Cancer ?,doc_59,True,1.0
+All-MiniLM-L6-v2 (General Baseline),60,what research (or clinical trials) is being done for Neurosyphilis ?,doc_60,True,1.0
+All-MiniLM-L6-v2 (General Baseline),61,what research (or clinical trials) is being done for Brown-Sequard Syndrome ?,doc_61,True,1.0
+All-MiniLM-L6-v2 (General Baseline),62,What is (are) Cardiogenic Shock ?,doc_62,True,1.0
+All-MiniLM-L6-v2 (General Baseline),63,What are the genetic changes related to Simpson-Golabi-Behmel syndrome ?,doc_63,True,1.0
+All-MiniLM-L6-v2 (General Baseline),64,How to diagnose Neurofibromatosis type 1 ?,doc_64,True,1.0
+All-MiniLM-L6-v2 (General Baseline),65,"What are the treatments for 46,XX testicular disorder of sex development ?",doc_65,True,1.0
+All-MiniLM-L6-v2 (General Baseline),66,How many people are affected by trichothiodystrophy ?,doc_66,True,1.0
+All-MiniLM-L6-v2 (General Baseline),67,What are the symptoms of Familial hypocalciuric hypercalcemia type 1 ?,doc_67,True,1.0
+All-MiniLM-L6-v2 (General Baseline),68,What causes Peripheral Arterial Disease (P.A.D.) ?,doc_68,True,1.0
+All-MiniLM-L6-v2 (General Baseline),69,What is (are) Rh Incompatibility ?,doc_69,True,1.0
+All-MiniLM-L6-v2 (General Baseline),70,What are the symptoms of Doyne honeycomb retinal dystrophy ?,doc_70,True,1.0
+All-MiniLM-L6-v2 (General Baseline),71,What is (are) ankylosing spondylitis ?,doc_71,True,1.0
+All-MiniLM-L6-v2 (General Baseline),72,What are the treatments for Disseminated peritoneal leiomyomatosis ?,doc_72,True,1.0
+All-MiniLM-L6-v2 (General Baseline),73,What are the treatments for Tetralogy of Fallot ?,doc_73,True,1.0
+All-MiniLM-L6-v2 (General Baseline),74,What are the symptoms of Omodysplasia 2 ?,doc_74,True,1.0
+All-MiniLM-L6-v2 (General Baseline),75,What are the symptoms of Cronkhite-Canada disease ?,doc_75,True,1.0
+All-MiniLM-L6-v2 (General Baseline),76,What are the symptoms of Sarcosinemia ?,doc_76,True,1.0
+All-MiniLM-L6-v2 (General Baseline),77,What causes Pontocerebellar hypoplasia type 1 ?,doc_77,True,1.0
+All-MiniLM-L6-v2 (General Baseline),78,What is (are) Diabetes ?,doc_78,True,1.0
+All-MiniLM-L6-v2 (General Baseline),79,What is (are) Ovarian sex cord tumor with annular tubules ?,doc_79,True,1.0
+All-MiniLM-L6-v2 (General Baseline),80,What is (are) Darier disease ?,doc_80,True,1.0
+All-MiniLM-L6-v2 (General Baseline),81,How many people are affected by Alzheimer disease ?,doc_81,True,1.0
+All-MiniLM-L6-v2 (General Baseline),82,What is (are) Joubert syndrome ?,doc_82,True,1.0
+All-MiniLM-L6-v2 (General Baseline),83,What are the symptoms of Baller-Gerold syndrome ?,doc_83,True,1.0
+All-MiniLM-L6-v2 (General Baseline),84,What are the genetic changes related to otopalatodigital syndrome type 1 ?,doc_84,True,1.0
+All-MiniLM-L6-v2 (General Baseline),85,How to diagnose Hanhart syndrome ?,doc_85,True,1.0
+All-MiniLM-L6-v2 (General Baseline),86,How many people are affected by pyruvate carboxylase deficiency ?,doc_86,True,1.0
+All-MiniLM-L6-v2 (General Baseline),87,What is (are) multiple mitochondrial dysfunctions syndrome ?,doc_87,True,1.0
+All-MiniLM-L6-v2 (General Baseline),88,"What are the symptoms of Dystonia 6, torsion ?",doc_88,True,1.0
+All-MiniLM-L6-v2 (General Baseline),89,What is (are) Cyclic Vomiting Syndrome ?,doc_146,False,0.5
+All-MiniLM-L6-v2 (General Baseline),90,What is (are) What I need to know about Lactose Intolerance ?,doc_90,True,1.0
+All-MiniLM-L6-v2 (General Baseline),91,What are the symptoms of Tay-Sachs disease ?,doc_91,True,1.0
+All-MiniLM-L6-v2 (General Baseline),92,What is the outlook for Febrile Seizures ?,doc_92,True,1.0
+All-MiniLM-L6-v2 (General Baseline),93,What are the treatments for gyrate atrophy of the choroid and retina ?,doc_93,True,1.0
+All-MiniLM-L6-v2 (General Baseline),94,What are the treatments for activated PI3K-delta syndrome ?,doc_94,True,1.0
+All-MiniLM-L6-v2 (General Baseline),95,How to diagnose Cirrhosis ?,doc_95,True,1.0
+All-MiniLM-L6-v2 (General Baseline),96,What is the outlook for Prostate Cancer ?,doc_96,True,1.0
+All-MiniLM-L6-v2 (General Baseline),97,"Is Ehlers-Danlos syndrome, dermatosparaxis type inherited ?",doc_97,True,1.0
+All-MiniLM-L6-v2 (General Baseline),98,What are the stages of Chronic Myelogenous Leukemia ?,doc_98,True,1.0
+All-MiniLM-L6-v2 (General Baseline),99,What is (are) Esophagus Disorders ?,doc_99,True,1.0
+All-MiniLM-L6-v2 (General Baseline),100,What are the treatments for Thrombocytopenia ?,doc_100,True,1.0
+All-MiniLM-L6-v2 (General Baseline),101,What are the treatments for familial dysautonomia ?,doc_101,True,1.0
+All-MiniLM-L6-v2 (General Baseline),102,Is psoriatic arthritis inherited ?,doc_102,True,1.0
+All-MiniLM-L6-v2 (General Baseline),103,What are the treatments for atelosteogenesis type 3 ?,doc_103,True,1.0
+All-MiniLM-L6-v2 (General Baseline),104,What is (are) Meier-Gorlin syndrome ?,doc_104,True,1.0
+All-MiniLM-L6-v2 (General Baseline),105,What are the treatments for Factor XIII deficiency ?,doc_105,True,1.0
+All-MiniLM-L6-v2 (General Baseline),106,What is (are) High Blood Pressure in Pregnancy ?,doc_106,True,1.0
+All-MiniLM-L6-v2 (General Baseline),107,What is (are) spondyloepiphyseal dysplasia congenita ?,doc_107,True,1.0
+All-MiniLM-L6-v2 (General Baseline),108,What are the symptoms of Vasculitis ?,doc_108,True,1.0
+All-MiniLM-L6-v2 (General Baseline),109,Is X-linked myotubular myopathy inherited ?,doc_109,True,1.0
+All-MiniLM-L6-v2 (General Baseline),110,What is the outlook for Wilms Tumor and Other Childhood Kidney Tumors ?,doc_110,True,1.0
+All-MiniLM-L6-v2 (General Baseline),111,What is (are) Glossopharyngeal Neuralgia ?,doc_111,True,1.0
+All-MiniLM-L6-v2 (General Baseline),112,What is (are) Axenfeld-Rieger syndrome type 1 ?,doc_112,True,1.0
+All-MiniLM-L6-v2 (General Baseline),113,What are the treatments for Y chromosome infertility ?,doc_113,True,1.0
+All-MiniLM-L6-v2 (General Baseline),114,What is (are) Parkinson's Disease ?,doc_114,True,1.0
+All-MiniLM-L6-v2 (General Baseline),115,What causes Gas in the Digestive Tract ?,doc_89,False,0.3333333333333333
+All-MiniLM-L6-v2 (General Baseline),116,How to prevent Peripheral Arterial Disease (P.A.D.) ?,doc_68,False,0.5
+All-MiniLM-L6-v2 (General Baseline),117,What are the symptoms of Heart Attack ?,doc_117,True,1.0
+All-MiniLM-L6-v2 (General Baseline),118,How many people are affected by sialic acid storage disease ?,doc_118,True,1.0
+All-MiniLM-L6-v2 (General Baseline),119,What is (are) Pityriasis rubra pilaris ?,doc_119,True,1.0
+All-MiniLM-L6-v2 (General Baseline),120,What is the outlook for Hydromyelia ?,doc_120,True,1.0
+All-MiniLM-L6-v2 (General Baseline),121,What is the outlook for Pseudotumor Cerebri ?,doc_121,True,1.0
+All-MiniLM-L6-v2 (General Baseline),122,What are the genetic changes related to essential thrombocythemia ?,doc_122,True,1.0
+All-MiniLM-L6-v2 (General Baseline),123,What are the treatments for ring chromosome 14 syndrome ?,doc_123,True,1.0
+All-MiniLM-L6-v2 (General Baseline),124,What is (are) Carpal Tunnel Syndrome ?,doc_124,True,1.0
+All-MiniLM-L6-v2 (General Baseline),125,What is (are) Dumping Syndrome ?,doc_43,False,0.0
+All-MiniLM-L6-v2 (General Baseline),126,What is (are) Pneumonia ?,doc_126,True,1.0
+All-MiniLM-L6-v2 (General Baseline),127,Who is at risk for Colorectal Cancer? ?,doc_127,True,1.0
+All-MiniLM-L6-v2 (General Baseline),128,Who is at risk for Pernicious Anemia? ?,doc_128,True,1.0
+All-MiniLM-L6-v2 (General Baseline),129,How to prevent Endocarditis ?,doc_129,True,1.0
+All-MiniLM-L6-v2 (General Baseline),130,Is Multiple endocrine neoplasia type 2A inherited ?,doc_130,True,1.0
+All-MiniLM-L6-v2 (General Baseline),131,What is the outlook for Coma ?,doc_131,True,1.0
+All-MiniLM-L6-v2 (General Baseline),132,What is the outlook for Parathyroid Cancer ?,doc_132,True,1.0
+All-MiniLM-L6-v2 (General Baseline),133,How many people are affected by megalencephalic leukoencephalopathy with subcortical cysts ?,doc_133,True,1.0
+All-MiniLM-L6-v2 (General Baseline),134,How to diagnose Shingles ?,doc_134,True,1.0
+All-MiniLM-L6-v2 (General Baseline),135,How many people are affected by craniofacial microsomia ?,doc_135,True,1.0
+All-MiniLM-L6-v2 (General Baseline),136,What is the outlook for Nasopharyngeal Cancer ?,doc_136,True,1.0
+All-MiniLM-L6-v2 (General Baseline),137,What is (are) Chorea-acanthocytosis ?,doc_137,True,1.0
+All-MiniLM-L6-v2 (General Baseline),138,What are the genetic changes related to PRICKLE1-related progressive myoclonus epilepsy with ataxia ?,doc_138,True,1.0
+All-MiniLM-L6-v2 (General Baseline),139,What is the outlook for Sturge-Weber Syndrome ?,doc_38,False,0.0
+All-MiniLM-L6-v2 (General Baseline),140,How to prevent Immune Thrombocytopenia ?,doc_140,True,1.0
+All-MiniLM-L6-v2 (General Baseline),141,What are the symptoms of Intestinal Pseudo-obstruction ?,doc_141,True,1.0
+All-MiniLM-L6-v2 (General Baseline),142,What is (are) Snyder-Robinson syndrome ?,doc_142,True,1.0
+All-MiniLM-L6-v2 (General Baseline),143,What are the genetic changes related to chorea-acanthocytosis ?,doc_137,False,0.5
+All-MiniLM-L6-v2 (General Baseline),144,Do you have information about Artificial Limbs,doc_144,True,1.0
+All-MiniLM-L6-v2 (General Baseline),145,What are the genetic changes related to primary carnitine deficiency ?,doc_145,True,1.0
+All-MiniLM-L6-v2 (General Baseline),146,What to do for Cyclic Vomiting Syndrome ?,doc_146,True,1.0
+All-MiniLM-L6-v2 (General Baseline),147,Who is at risk for Langerhans Cell Histiocytosis? ?,doc_63,False,0.125
+All-MiniLM-L6-v2 (General Baseline),148,"What are the symptoms of Polyhydramnios, megalencephaly, and symptomatic epilepsy syndrome ?",doc_148,True,1.0
+All-MiniLM-L6-v2 (General Baseline),149,What is the outlook for Pituitary Tumors ?,doc_149,True,1.0
+All-MiniLM-L6-v2 (General Baseline),150,What are the genetic changes related to microphthalmia with linear skin defects syndrome ?,doc_109,False,0.0
+All-MiniLM-L6-v2 (General Baseline),151,What are the treatments for Eales disease ?,doc_151,True,1.0
+All-MiniLM-L6-v2 (General Baseline),152,What causes Pyruvate kinase deficiency ?,doc_152,True,1.0
+All-MiniLM-L6-v2 (General Baseline),153,Do you have information about Foot Health,doc_153,True,1.0
+All-MiniLM-L6-v2 (General Baseline),154,What are the symptoms of Thai symphalangism syndrome ?,doc_154,True,1.0
+All-MiniLM-L6-v2 (General Baseline),155,What causes Shingles ?,doc_155,True,1.0
+All-MiniLM-L6-v2 (General Baseline),156,How to prevent Mitral Valve Prolapse ?,doc_156,True,1.0
+All-MiniLM-L6-v2 (General Baseline),157,What are the stages of Rectal Cancer ?,doc_157,True,1.0
+All-MiniLM-L6-v2 (General Baseline),158,What are the treatments for Idiopathic juxtafoveal retinal telangiectasia ?,doc_158,True,1.0
+All-MiniLM-L6-v2 (General Baseline),159,Is Fryns syndrome inherited ?,doc_159,True,1.0
+All-MiniLM-L6-v2 (General Baseline),160,What is (are) ALG1-congenital disorder of glycosylation ?,doc_160,True,1.0
+All-MiniLM-L6-v2 (General Baseline),161,What is the outlook for Non-Small Cell Lung Cancer ?,doc_59,False,0.5
+All-MiniLM-L6-v2 (General Baseline),162,How many people are affected by cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy ?,doc_133,False,0.0
+All-MiniLM-L6-v2 (General Baseline),163,What are the treatments for Financial Help for Diabetes Care ?,doc_163,True,1.0
+All-MiniLM-L6-v2 (General Baseline),164,How many people are affected by spastic paraplegia type 15 ?,doc_164,True,1.0
+All-MiniLM-L6-v2 (General Baseline),165,What are the treatments for tyrosinemia ?,doc_165,True,1.0
+All-MiniLM-L6-v2 (General Baseline),166,What is (are) L1 syndrome ?,doc_166,True,1.0
+All-MiniLM-L6-v2 (General Baseline),167,What are the symptoms of Acromegaly ?,doc_167,True,1.0
+All-MiniLM-L6-v2 (General Baseline),168,What is (are) Baller-Gerold syndrome ?,doc_168,True,1.0
+All-MiniLM-L6-v2 (General Baseline),169,Do you have information about Veterans and Military Health,doc_169,True,1.0
+All-MiniLM-L6-v2 (General Baseline),170,What are the symptoms of Pycnodysostosis ?,doc_170,True,1.0
+All-MiniLM-L6-v2 (General Baseline),171,What is (are) Myasthenia Gravis ?,doc_171,True,1.0
+All-MiniLM-L6-v2 (General Baseline),172,What are the genetic changes related to ovarian cancer ?,doc_172,True,1.0
+All-MiniLM-L6-v2 (General Baseline),173,What is the outlook for Metastatic Squamous Neck Cancer with Occult Primary ?,doc_11,False,0.5
+All-MiniLM-L6-v2 (General Baseline),174,What are the symptoms of Juvenile Myelomonocytic Leukemia ?,doc_174,True,1.0
+All-MiniLM-L6-v2 (General Baseline),175,What causes Renal Artery Stenosis ?,doc_175,True,1.0
+All-MiniLM-L6-v2 (General Baseline),176,What are the symptoms of Mandibulofacial dysostosis with microcephaly ?,doc_176,True,1.0
+All-MiniLM-L6-v2 (General Baseline),177,What is (are) Renpenning syndrome ?,doc_177,True,1.0
+All-MiniLM-L6-v2 (General Baseline),178,What is the outlook for Gallbladder Cancer ?,doc_178,True,1.0
+All-MiniLM-L6-v2 (General Baseline),179,What is the outlook for Peripheral Neuropathy ?,doc_241,False,0.5
+All-MiniLM-L6-v2 (General Baseline),180,What are the symptoms of Amish infantile epilepsy syndrome ?,doc_180,True,1.0
+All-MiniLM-L6-v2 (General Baseline),181,What is the outlook for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?,doc_186,False,0.3333333333333333
+All-MiniLM-L6-v2 (General Baseline),182,What are the genetic changes related to heterotaxy syndrome ?,doc_182,True,1.0
+All-MiniLM-L6-v2 (General Baseline),183,What are the symptoms of Osteogenesis imperfecta Levin type ?,doc_183,True,1.0
+All-MiniLM-L6-v2 (General Baseline),184,Who is at risk for Childhood Brain Stem Glioma? ?,doc_184,True,1.0
+All-MiniLM-L6-v2 (General Baseline),185,How many people are affected by Friedreich ataxia ?,doc_185,True,1.0
+All-MiniLM-L6-v2 (General Baseline),186,What is (are) Childhood Central Nervous System Germ Cell Tumors ?,doc_186,True,1.0
+All-MiniLM-L6-v2 (General Baseline),187,What is (are) Myotonia congenita autosomal dominant ?,doc_187,True,1.0
+All-MiniLM-L6-v2 (General Baseline),188,What are the treatments for hereditary spherocytosis ?,doc_188,True,1.0
+All-MiniLM-L6-v2 (General Baseline),189,What are the treatments for Transient Ischemic Attack ?,doc_189,True,1.0
+All-MiniLM-L6-v2 (General Baseline),190,What are the symptoms of Patterned dystrophy of retinal pigment epithelium ?,doc_190,True,1.0
+All-MiniLM-L6-v2 (General Baseline),191,"What are the symptoms of Palmoplantar keratoderma, epidermolytic ?",doc_191,True,1.0
+All-MiniLM-L6-v2 (General Baseline),192,How to diagnose Pyruvate kinase deficiency ?,doc_152,False,0.5
+All-MiniLM-L6-v2 (General Baseline),193,What are the symptoms of Diabetic Neuropathies: The Nerve Damage of Diabetes ?,doc_193,True,1.0
+All-MiniLM-L6-v2 (General Baseline),194,How many people are affected by chylomicron retention disease ?,doc_194,True,1.0
+All-MiniLM-L6-v2 (General Baseline),195,What is (are) granulomatosis with polyangiitis ?,doc_195,True,1.0
+All-MiniLM-L6-v2 (General Baseline),196,What are the treatments for Depression ?,doc_196,True,1.0
+All-MiniLM-L6-v2 (General Baseline),197,How many people are affected by ZAP70-related severe combined immunodeficiency ?,doc_197,True,1.0
+All-MiniLM-L6-v2 (General Baseline),198,What are the treatments for Atrial Fibrillation and Stroke ?,doc_189,False,0.5
+All-MiniLM-L6-v2 (General Baseline),199,What is (are) Knee Replacement ?,doc_199,True,1.0
+All-MiniLM-L6-v2 (General Baseline),200,What is (are) Klinefelter syndrome ?,doc_200,True,1.0
+All-MiniLM-L6-v2 (General Baseline),201,"What are the genetic changes related to Ohdo syndrome, Maat-Kievit-Brunner type ?",doc_201,True,1.0
+All-MiniLM-L6-v2 (General Baseline),202,What is (are) Pericarditis ?,doc_202,True,1.0
+All-MiniLM-L6-v2 (General Baseline),203,What are the treatments for Heart Failure ?,doc_203,True,1.0
+All-MiniLM-L6-v2 (General Baseline),204,How many people are affected by Wolman disease ?,doc_204,True,1.0
+All-MiniLM-L6-v2 (General Baseline),205,What are the symptoms of Diabetic Kidney Disease ?,doc_205,True,1.0
+All-MiniLM-L6-v2 (General Baseline),206,What are the treatments for Parasites - Toxoplasmosis (Toxoplasma infection) ?,doc_206,True,1.0
+All-MiniLM-L6-v2 (General Baseline),207,What are the treatments for X-linked adrenal hypoplasia congenita ?,doc_207,True,1.0
+All-MiniLM-L6-v2 (General Baseline),208,How many people are affected by amelogenesis imperfecta ?,doc_208,True,1.0
+All-MiniLM-L6-v2 (General Baseline),209,Do you have information about Limb Loss,doc_209,True,1.0
+All-MiniLM-L6-v2 (General Baseline),210,What is (are) adult-onset leukoencephalopathy with axonal spheroids and pigmented glia ?,doc_210,True,1.0
+All-MiniLM-L6-v2 (General Baseline),211,What are the treatments for Danon disease ?,doc_211,True,1.0
+All-MiniLM-L6-v2 (General Baseline),212,What are the symptoms of Tubulointerstitial nephritis and uveitis ?,doc_212,True,1.0
+All-MiniLM-L6-v2 (General Baseline),213,What is (are) High Blood Cholesterol ?,doc_223,False,0.5
+All-MiniLM-L6-v2 (General Baseline),214,What is (are) Cushing disease ?,doc_214,True,1.0
+All-MiniLM-L6-v2 (General Baseline),215,What is (are) Hennekam syndrome ?,doc_215,True,1.0
+All-MiniLM-L6-v2 (General Baseline),216,What are the treatments for gnathodiaphyseal dysplasia ?,doc_12,False,0.5
+All-MiniLM-L6-v2 (General Baseline),217,What is (are) Trigeminal Neuralgia ?,doc_217,True,1.0
+All-MiniLM-L6-v2 (General Baseline),218,What is (are) Stress ?,doc_218,True,1.0
+All-MiniLM-L6-v2 (General Baseline),219,How to prevent Diabetic Kidney Disease ?,doc_219,True,1.0
+All-MiniLM-L6-v2 (General Baseline),220,What is (are) Steatocystoma multiplex ?,doc_220,True,1.0
+All-MiniLM-L6-v2 (General Baseline),221,What are the symptoms of Mental retardation X-linked syndromic 11 ?,doc_221,True,1.0
+All-MiniLM-L6-v2 (General Baseline),222,What causes Punctate palmoplantar keratoderma type I ?,doc_222,True,1.0
+All-MiniLM-L6-v2 (General Baseline),223,Do you have information about Triglycerides,doc_223,True,1.0
+All-MiniLM-L6-v2 (General Baseline),224,Do you have information about Healthy Living,doc_224,True,1.0
+All-MiniLM-L6-v2 (General Baseline),225,What is the outlook for Adult Acute Lymphoblastic Leukemia ?,doc_174,False,0.5
+All-MiniLM-L6-v2 (General Baseline),226,How many people are affected by X-linked infantile spasm syndrome ?,doc_226,True,1.0
+All-MiniLM-L6-v2 (General Baseline),227,What is (are) Stomach Cancer ?,doc_227,True,1.0
+All-MiniLM-L6-v2 (General Baseline),228,What is (are) Alopecia totalis ?,doc_228,True,1.0
+All-MiniLM-L6-v2 (General Baseline),229,How many people are affected by Cushing disease ?,doc_229,True,1.0
+All-MiniLM-L6-v2 (General Baseline),230,How many people are affected by Bart-Pumphrey syndrome ?,doc_230,True,1.0
+All-MiniLM-L6-v2 (General Baseline),231,What are the symptoms of Hemangioma thrombocytopenia syndrome ?,doc_231,True,1.0
+All-MiniLM-L6-v2 (General Baseline),232,What are the treatments for Adult Soft Tissue Sarcoma ?,doc_232,True,1.0
+All-MiniLM-L6-v2 (General Baseline),233,What is (are) Asthma in Children ?,doc_233,True,1.0
+All-MiniLM-L6-v2 (General Baseline),234,What are the treatments for spinal and bulbar muscular atrophy ?,doc_234,True,1.0
+All-MiniLM-L6-v2 (General Baseline),235,What is the outlook for Klippel-Trenaunay Syndrome (KTS) ?,doc_15,False,0.5
+All-MiniLM-L6-v2 (General Baseline),236,what research (or clinical trials) is being done for Spinal Cord Infarction ?,doc_236,True,1.0
+All-MiniLM-L6-v2 (General Baseline),237,Is centronuclear myopathy inherited ?,doc_237,True,1.0
+All-MiniLM-L6-v2 (General Baseline),238,What is (are) Leprechaunism ?,doc_238,True,1.0
+All-MiniLM-L6-v2 (General Baseline),239,What are the treatments for benign essential blepharospasm ?,doc_239,True,1.0
+All-MiniLM-L6-v2 (General Baseline),240,Do you have information about Child Dental Health,doc_240,True,1.0
+All-MiniLM-L6-v2 (General Baseline),241,What are the treatments for Peripheral Neuropathy ?,doc_241,True,1.0
+All-MiniLM-L6-v2 (General Baseline),242,What is (are) Cerebral Hypoxia ?,doc_242,True,1.0
+All-MiniLM-L6-v2 (General Baseline),243,What is (are) Primary Ciliary Dyskinesia ?,doc_45,False,0.5
+All-MiniLM-L6-v2 (General Baseline),244,Is Metachromatic leukodystrophy inherited ?,doc_244,True,1.0
+All-MiniLM-L6-v2 (General Baseline),245,What are the treatments for Isovaleric acidemia ?,doc_245,True,1.0
+All-MiniLM-L6-v2 (General Baseline),246,what research (or clinical trials) is being done for Cerebral Hypoxia ?,doc_246,True,1.0
+All-MiniLM-L6-v2 (General Baseline),247,What is (are) Juvenile osteoporosis ?,doc_247,True,1.0
+All-MiniLM-L6-v2 (General Baseline),248,What are the treatments for UV-sensitive syndrome ?,doc_248,True,1.0
+All-MiniLM-L6-v2 (General Baseline),249,What are the genetic changes related to hereditary sensory and autonomic neuropathy type II ?,doc_35,False,0.0
+Fine-Tuned Hospital BGE-Small (Ours),0,How many people are affected by X-linked spondyloepiphyseal dysplasia tarda ?,doc_0,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),1,Is Hereditary multiple osteochondromas inherited ?,doc_1,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),2,What are the symptoms of Mucopolysaccharidosis type IIID ?,doc_2,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),3,How to prevent High Blood Pressure ?,doc_3,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),4,What are the symptoms of Von Hippel-Lindau disease ?,doc_4,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),5,what research (or clinical trials) is being done for Hypersomnia ?,doc_5,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),6,What are the symptoms of GM1 gangliosidosis type 2 ?,doc_6,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),7,What is (are) Cryptosporidiosis ?,doc_7,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),8,What are the symptoms of Human T-cell leukemia virus type 2 ?,doc_8,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),9,What are the genetic changes related to spinocerebellar ataxia type 1 ?,doc_77,False,0.3333333333333333
+Fine-Tuned Hospital BGE-Small (Ours),10,Is X-linked congenital stationary night blindness inherited ?,doc_10,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),11,What is the outlook for Adult Central Nervous System Tumors ?,doc_149,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),12,How many people are affected by gnathodiaphyseal dysplasia ?,doc_12,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),13,What are the treatments for Malignant eccrine spiradenoma ?,doc_13,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),14,"What are the symptoms of Epilepsy, benign occipital ?",doc_14,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),15,Is Klippel-Trenaunay syndrome inherited ?,doc_15,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),16,What are the treatments for Parasites - Cyclosporiasis (Cyclospora Infection) ?,doc_16,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),17,What is the outlook for Gastrointestinal Carcinoid Tumors ?,doc_17,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),18,What are the genetic changes related to campomelic dysplasia ?,doc_18,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),19,What causes Factor V deficiency ?,doc_19,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),20,What is (are) Lattice corneal dystrophy type 3A ?,doc_20,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),21,Do you have information about Infant and Newborn Nutrition,doc_21,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),22,Is Liddle syndrome inherited ?,doc_22,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),23,What causes What I need to know about Erectile Dysfunction ?,doc_23,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),24,Who is at risk for Kyasanur Forest Disease (KFD)? ?,doc_24,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),25,What are the treatments for PPM-X syndrome ?,doc_25,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),26,What causes Diffuse gastric cancer ?,doc_26,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),27,What are the symptoms of Microcephalic osteodysplastic primordial dwarfism type 1 ?,doc_27,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),28,What is the outlook for Extragonadal Germ Cell Tumors ?,doc_186,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),29,What are the genetic changes related to tetra-amelia syndrome ?,doc_29,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),30,What are the symptoms of Diabetic Retinopathy ?,doc_205,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),31,What are the treatments for Pseudotumor Cerebri ?,doc_31,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),32,How many people are affected by mitochondrial trifunctional protein deficiency ?,doc_32,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),33,What is (are) Danon disease ?,doc_33,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),34,What are the treatments for Ewing Sarcoma ?,doc_34,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),35,What is (are) Hereditary sensory and autonomic neuropathy ?,doc_35,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),36,Do you have information about A1C,doc_36,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),37,Is Mondini dysplasia inherited ?,doc_37,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),38,What are the symptoms of Legius syndrome ?,doc_38,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),39,What are the symptoms of X-linked hypohidrotic ectodermal dysplasia ?,doc_39,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),40,What is (are) Mycosis Fungoides and the Szary Syndrome ?,doc_40,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),41,What are the symptoms of Chronic Fatigue Syndrome (CFS) ?,doc_41,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),42,Is Postural orthostatic tachycardia syndrome inherited ?,doc_42,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),43,What is (are) Striatonigral Degeneration ?,doc_43,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),44,What is (are) Junctional epidermolysis bullosa ?,doc_44,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),45,Who is at risk for Primary Ciliary Dyskinesia? ?,doc_45,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),46,What are the genetic changes related to pyruvate kinase deficiency ?,doc_152,False,0.3333333333333333
+Fine-Tuned Hospital BGE-Small (Ours),47,What is (are) Stve-Wiedemann syndrome ?,doc_47,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),48,What is (are) PMM2-congenital disorder of glycosylation ?,doc_48,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),49,what research (or clinical trials) is being done for Kidney Disease ?,doc_49,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),50,What is (are) Limb-girdle muscular dystrophy ?,doc_50,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),51,What are the genetic changes related to combined pituitary hormone deficiency ?,doc_51,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),52,How many people are affected by alveolar capillary dysplasia with misalignment of pulmonary veins ?,doc_208,False,0.1
+Fine-Tuned Hospital BGE-Small (Ours),53,How to prevent Heart Failure ?,doc_53,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),54,What is (are) Ehlers-Danlos syndrome ?,doc_54,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),55,Is Waldenstrm macroglobulinemia inherited ?,doc_55,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),56,What are the treatments for Alpha-thalassemia ?,doc_56,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),57,What is (are) Acute Disseminated Encephalomyelitis ?,doc_57,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),58,What causes Tylosis with esophageal cancer ?,doc_58,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),59,What is (are) Lung Cancer ?,doc_59,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),60,what research (or clinical trials) is being done for Neurosyphilis ?,doc_60,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),61,what research (or clinical trials) is being done for Brown-Sequard Syndrome ?,doc_61,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),62,What is (are) Cardiogenic Shock ?,doc_62,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),63,What are the genetic changes related to Simpson-Golabi-Behmel syndrome ?,doc_63,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),64,How to diagnose Neurofibromatosis type 1 ?,doc_64,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),65,"What are the treatments for 46,XX testicular disorder of sex development ?",doc_65,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),66,How many people are affected by trichothiodystrophy ?,doc_66,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),67,What are the symptoms of Familial hypocalciuric hypercalcemia type 1 ?,doc_67,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),68,What causes Peripheral Arterial Disease (P.A.D.) ?,doc_68,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),69,What is (are) Rh Incompatibility ?,doc_69,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),70,What are the symptoms of Doyne honeycomb retinal dystrophy ?,doc_70,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),71,What is (are) ankylosing spondylitis ?,doc_71,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),72,What are the treatments for Disseminated peritoneal leiomyomatosis ?,doc_72,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),73,What are the treatments for Tetralogy of Fallot ?,doc_73,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),74,What are the symptoms of Omodysplasia 2 ?,doc_74,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),75,What are the symptoms of Cronkhite-Canada disease ?,doc_75,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),76,What are the symptoms of Sarcosinemia ?,doc_76,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),77,What causes Pontocerebellar hypoplasia type 1 ?,doc_77,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),78,What is (are) Diabetes ?,doc_78,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),79,What is (are) Ovarian sex cord tumor with annular tubules ?,doc_79,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),80,What is (are) Darier disease ?,doc_80,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),81,How many people are affected by Alzheimer disease ?,doc_81,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),82,What is (are) Joubert syndrome ?,doc_82,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),83,What are the symptoms of Baller-Gerold syndrome ?,doc_83,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),84,What are the genetic changes related to otopalatodigital syndrome type 1 ?,doc_84,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),85,How to diagnose Hanhart syndrome ?,doc_85,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),86,How many people are affected by pyruvate carboxylase deficiency ?,doc_86,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),87,What is (are) multiple mitochondrial dysfunctions syndrome ?,doc_87,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),88,"What are the symptoms of Dystonia 6, torsion ?",doc_88,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),89,What is (are) Cyclic Vomiting Syndrome ?,doc_146,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),90,What is (are) What I need to know about Lactose Intolerance ?,doc_90,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),91,What are the symptoms of Tay-Sachs disease ?,doc_91,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),92,What is the outlook for Febrile Seizures ?,doc_92,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),93,What are the treatments for gyrate atrophy of the choroid and retina ?,doc_93,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),94,What are the treatments for activated PI3K-delta syndrome ?,doc_94,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),95,How to diagnose Cirrhosis ?,doc_95,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),96,What is the outlook for Prostate Cancer ?,doc_96,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),97,"Is Ehlers-Danlos syndrome, dermatosparaxis type inherited ?",doc_97,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),98,What are the stages of Chronic Myelogenous Leukemia ?,doc_98,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),99,What is (are) Esophagus Disorders ?,doc_99,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),100,What are the treatments for Thrombocytopenia ?,doc_100,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),101,What are the treatments for familial dysautonomia ?,doc_101,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),102,Is psoriatic arthritis inherited ?,doc_102,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),103,What are the treatments for atelosteogenesis type 3 ?,doc_103,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),104,What is (are) Meier-Gorlin syndrome ?,doc_104,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),105,What are the treatments for Factor XIII deficiency ?,doc_105,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),106,What is (are) High Blood Pressure in Pregnancy ?,doc_106,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),107,What is (are) spondyloepiphyseal dysplasia congenita ?,doc_107,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),108,What are the symptoms of Vasculitis ?,doc_108,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),109,Is X-linked myotubular myopathy inherited ?,doc_109,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),110,What is the outlook for Wilms Tumor and Other Childhood Kidney Tumors ?,doc_110,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),111,What is (are) Glossopharyngeal Neuralgia ?,doc_111,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),112,What is (are) Axenfeld-Rieger syndrome type 1 ?,doc_112,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),113,What are the treatments for Y chromosome infertility ?,doc_113,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),114,What is (are) Parkinson's Disease ?,doc_114,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),115,What causes Gas in the Digestive Tract ?,doc_115,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),116,How to prevent Peripheral Arterial Disease (P.A.D.) ?,doc_68,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),117,What are the symptoms of Heart Attack ?,doc_117,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),118,How many people are affected by sialic acid storage disease ?,doc_118,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),119,What is (are) Pityriasis rubra pilaris ?,doc_119,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),120,What is the outlook for Hydromyelia ?,doc_120,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),121,What is the outlook for Pseudotumor Cerebri ?,doc_31,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),122,What are the genetic changes related to essential thrombocythemia ?,doc_122,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),123,What are the treatments for ring chromosome 14 syndrome ?,doc_123,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),124,What is (are) Carpal Tunnel Syndrome ?,doc_124,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),125,What is (are) Dumping Syndrome ?,doc_146,False,0.0
+Fine-Tuned Hospital BGE-Small (Ours),126,What is (are) Pneumonia ?,doc_126,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),127,Who is at risk for Colorectal Cancer? ?,doc_127,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),128,Who is at risk for Pernicious Anemia? ?,doc_128,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),129,How to prevent Endocarditis ?,doc_129,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),130,Is Multiple endocrine neoplasia type 2A inherited ?,doc_130,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),131,What is the outlook for Coma ?,doc_131,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),132,What is the outlook for Parathyroid Cancer ?,doc_132,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),133,How many people are affected by megalencephalic leukoencephalopathy with subcortical cysts ?,doc_133,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),134,How to diagnose Shingles ?,doc_134,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),135,How many people are affected by craniofacial microsomia ?,doc_135,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),136,What is the outlook for Nasopharyngeal Cancer ?,doc_136,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),137,What is (are) Chorea-acanthocytosis ?,doc_137,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),138,What are the genetic changes related to PRICKLE1-related progressive myoclonus epilepsy with ataxia ?,doc_138,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),139,What is the outlook for Sturge-Weber Syndrome ?,doc_177,False,0.0
+Fine-Tuned Hospital BGE-Small (Ours),140,How to prevent Immune Thrombocytopenia ?,doc_140,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),141,What are the symptoms of Intestinal Pseudo-obstruction ?,doc_141,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),142,What is (are) Snyder-Robinson syndrome ?,doc_142,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),143,What are the genetic changes related to chorea-acanthocytosis ?,doc_137,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),144,Do you have information about Artificial Limbs,doc_144,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),145,What are the genetic changes related to primary carnitine deficiency ?,doc_145,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),146,What to do for Cyclic Vomiting Syndrome ?,doc_146,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),147,Who is at risk for Langerhans Cell Histiocytosis? ?,doc_140,False,0.0
+Fine-Tuned Hospital BGE-Small (Ours),148,"What are the symptoms of Polyhydramnios, megalencephaly, and symptomatic epilepsy syndrome ?",doc_148,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),149,What is the outlook for Pituitary Tumors ?,doc_149,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),150,What are the genetic changes related to microphthalmia with linear skin defects syndrome ?,doc_150,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),151,What are the treatments for Eales disease ?,doc_151,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),152,What causes Pyruvate kinase deficiency ?,doc_152,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),153,Do you have information about Foot Health,doc_153,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),154,What are the symptoms of Thai symphalangism syndrome ?,doc_154,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),155,What causes Shingles ?,doc_155,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),156,How to prevent Mitral Valve Prolapse ?,doc_156,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),157,What are the stages of Rectal Cancer ?,doc_157,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),158,What are the treatments for Idiopathic juxtafoveal retinal telangiectasia ?,doc_158,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),159,Is Fryns syndrome inherited ?,doc_159,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),160,What is (are) ALG1-congenital disorder of glycosylation ?,doc_160,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),161,What is the outlook for Non-Small Cell Lung Cancer ?,doc_161,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),162,How many people are affected by cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy ?,doc_133,False,0.0
+Fine-Tuned Hospital BGE-Small (Ours),163,What are the treatments for Financial Help for Diabetes Care ?,doc_163,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),164,How many people are affected by spastic paraplegia type 15 ?,doc_164,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),165,What are the treatments for tyrosinemia ?,doc_165,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),166,What is (are) L1 syndrome ?,doc_166,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),167,What are the symptoms of Acromegaly ?,doc_167,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),168,What is (are) Baller-Gerold syndrome ?,doc_168,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),169,Do you have information about Veterans and Military Health,doc_169,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),170,What are the symptoms of Pycnodysostosis ?,doc_170,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),171,What is (are) Myasthenia Gravis ?,doc_171,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),172,What are the genetic changes related to ovarian cancer ?,doc_172,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),173,What is the outlook for Metastatic Squamous Neck Cancer with Occult Primary ?,doc_173,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),174,What are the symptoms of Juvenile Myelomonocytic Leukemia ?,doc_174,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),175,What causes Renal Artery Stenosis ?,doc_175,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),176,What are the symptoms of Mandibulofacial dysostosis with microcephaly ?,doc_176,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),177,What is (are) Renpenning syndrome ?,doc_177,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),178,What is the outlook for Gallbladder Cancer ?,doc_178,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),179,What is the outlook for Peripheral Neuropathy ?,doc_193,False,0.3333333333333333
+Fine-Tuned Hospital BGE-Small (Ours),180,What are the symptoms of Amish infantile epilepsy syndrome ?,doc_180,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),181,What is the outlook for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?,doc_186,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),182,What are the genetic changes related to heterotaxy syndrome ?,doc_182,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),183,What are the symptoms of Osteogenesis imperfecta Levin type ?,doc_183,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),184,Who is at risk for Childhood Brain Stem Glioma? ?,doc_184,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),185,How many people are affected by Friedreich ataxia ?,doc_185,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),186,What is (are) Childhood Central Nervous System Germ Cell Tumors ?,doc_186,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),187,What is (are) Myotonia congenita autosomal dominant ?,doc_187,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),188,What are the treatments for hereditary spherocytosis ?,doc_188,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),189,What are the treatments for Transient Ischemic Attack ?,doc_198,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),190,What are the symptoms of Patterned dystrophy of retinal pigment epithelium ?,doc_190,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),191,"What are the symptoms of Palmoplantar keratoderma, epidermolytic ?",doc_191,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),192,How to diagnose Pyruvate kinase deficiency ?,doc_192,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),193,What are the symptoms of Diabetic Neuropathies: The Nerve Damage of Diabetes ?,doc_193,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),194,How many people are affected by chylomicron retention disease ?,doc_194,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),195,What is (are) granulomatosis with polyangiitis ?,doc_195,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),196,What are the treatments for Depression ?,doc_196,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),197,How many people are affected by ZAP70-related severe combined immunodeficiency ?,doc_197,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),198,What are the treatments for Atrial Fibrillation and Stroke ?,doc_198,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),199,What is (are) Knee Replacement ?,doc_199,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),200,What is (are) Klinefelter syndrome ?,doc_200,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),201,"What are the genetic changes related to Ohdo syndrome, Maat-Kievit-Brunner type ?",doc_201,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),202,What is (are) Pericarditis ?,doc_202,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),203,What are the treatments for Heart Failure ?,doc_203,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),204,How many people are affected by Wolman disease ?,doc_204,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),205,What are the symptoms of Diabetic Kidney Disease ?,doc_205,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),206,What are the treatments for Parasites - Toxoplasmosis (Toxoplasma infection) ?,doc_206,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),207,What are the treatments for X-linked adrenal hypoplasia congenita ?,doc_207,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),208,How many people are affected by amelogenesis imperfecta ?,doc_208,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),209,Do you have information about Limb Loss,doc_209,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),210,What is (are) adult-onset leukoencephalopathy with axonal spheroids and pigmented glia ?,doc_210,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),211,What are the treatments for Danon disease ?,doc_33,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),212,What are the symptoms of Tubulointerstitial nephritis and uveitis ?,doc_212,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),213,What is (are) High Blood Cholesterol ?,doc_213,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),214,What is (are) Cushing disease ?,doc_214,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),215,What is (are) Hennekam syndrome ?,doc_215,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),216,What are the treatments for gnathodiaphyseal dysplasia ?,doc_216,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),217,What is (are) Trigeminal Neuralgia ?,doc_217,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),218,What is (are) Stress ?,doc_218,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),219,How to prevent Diabetic Kidney Disease ?,doc_219,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),220,What is (are) Steatocystoma multiplex ?,doc_220,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),221,What are the symptoms of Mental retardation X-linked syndromic 11 ?,doc_221,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),222,What causes Punctate palmoplantar keratoderma type I ?,doc_222,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),223,Do you have information about Triglycerides,doc_223,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),224,Do you have information about Healthy Living,doc_224,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),225,What is the outlook for Adult Acute Lymphoblastic Leukemia ?,doc_173,False,0.16666666666666666
+Fine-Tuned Hospital BGE-Small (Ours),226,How many people are affected by X-linked infantile spasm syndrome ?,doc_226,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),227,What is (are) Stomach Cancer ?,doc_227,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),228,What is (are) Alopecia totalis ?,doc_228,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),229,How many people are affected by Cushing disease ?,doc_229,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),230,How many people are affected by Bart-Pumphrey syndrome ?,doc_230,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),231,What are the symptoms of Hemangioma thrombocytopenia syndrome ?,doc_231,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),232,What are the treatments for Adult Soft Tissue Sarcoma ?,doc_232,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),233,What is (are) Asthma in Children ?,doc_233,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),234,What are the treatments for spinal and bulbar muscular atrophy ?,doc_234,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),235,What is the outlook for Klippel-Trenaunay Syndrome (KTS) ?,doc_15,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),236,what research (or clinical trials) is being done for Spinal Cord Infarction ?,doc_236,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),237,Is centronuclear myopathy inherited ?,doc_237,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),238,What is (are) Leprechaunism ?,doc_238,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),239,What are the treatments for benign essential blepharospasm ?,doc_239,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),240,Do you have information about Child Dental Health,doc_240,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),241,What are the treatments for Peripheral Neuropathy ?,doc_241,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),242,What is (are) Cerebral Hypoxia ?,doc_242,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),243,What is (are) Primary Ciliary Dyskinesia ?,doc_45,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),244,Is Metachromatic leukodystrophy inherited ?,doc_244,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),245,What are the treatments for Isovaleric acidemia ?,doc_245,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),246,what research (or clinical trials) is being done for Cerebral Hypoxia ?,doc_242,False,0.5
+Fine-Tuned Hospital BGE-Small (Ours),247,What is (are) Juvenile osteoporosis ?,doc_247,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),248,What are the treatments for UV-sensitive syndrome ?,doc_248,True,1.0
+Fine-Tuned Hospital BGE-Small (Ours),249,What are the genetic changes related to hereditary sensory and autonomic neuropathy type II ?,doc_35,False,0.3333333333333333

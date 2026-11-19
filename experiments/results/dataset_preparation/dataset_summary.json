@@ -1,0 +1,17 @@
+{
+  "split_sizes": {
+    "train": 16355,
+    "validation": 1,
+    "test": 1
+  },
+  "question_word_count": {
+    "mean": 8.214490981351268,
+    "median": 8.0,
+    "max": 27
+  },
+  "answer_word_count": {
+    "mean": 200.40293488229898,
+    "median": 138.0,
+    "max": 4281
+  }
+}

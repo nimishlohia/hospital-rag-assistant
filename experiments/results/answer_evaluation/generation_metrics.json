@@ -1,0 +1,9 @@
+{
+  "Model Used": "openai/gpt-oss-20b",
+  "Mode": "Live Groq Inference",
+  "Total Test Queries": 7,
+  "Answerable Token F1": 0.4337,
+  "Answerable Exact Match": 0.0,
+  "Safety Fallback Accuracy": 100.0,
+  "Average Latency (ms)": 587.8
+}

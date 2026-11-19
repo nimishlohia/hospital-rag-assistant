@@ -1,8 +1,6 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from dataclasses import dataclass
-
-from .embedding import get_tokenizer
 
 
 @dataclass(slots=True)
@@ -25,6 +23,8 @@ def chunk_page_text(
     chunk_size: int = 700,
     overlap: int = 100,
 ) -> list[TextChunk]:
+    from utils.embedding import get_tokenizer
+
     normalized = clean_text(text)
     if not normalized:
         return []

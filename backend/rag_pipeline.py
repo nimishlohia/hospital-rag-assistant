@@ -11,7 +11,6 @@ from groq import Groq
 
 from backend import db
 from backend.config import settings
-from utils.embedding import embed_query
 
 
 FALLBACK_ANSWER = "I don't have that information in the provided document."
@@ -168,7 +167,7 @@ def sanitize_answer(answer: str) -> str:
 
 def parse_source_indexes(raw_text: str, max_index: int) -> list[int]:
     candidates: list[int] = []
-    try:
+    try:    
         parsed = json.loads(raw_text)
         if isinstance(parsed, dict):
             values = parsed.get("sources", [])
@@ -246,6 +245,7 @@ def answer_question(
 
     scoped_document_ids = [str(doc.get("id")) for doc in scoped_documents]
     match_count = max(settings.hybrid_match_count * 3, 18) if len(scoped_documents) > 1 else settings.hybrid_match_count
+    from utils.embedding import embed_query
     query_embedding = embed_query(question)
     raw_chunks = db.hybrid_search_chunks(
         query_embedding,
@@ -301,3 +301,5 @@ def answer_question(
             for document_id, filename in matched_documents
         ],
     }
+
+

@@ -1,0 +1,126 @@
+{
+  "project_name": "Hospital RAG Assistant - Research & Model Fine-Tuning",
+  "version": "1.0.0",
+  "hardware": {
+    "target_gpu": "NVIDIA GeForce RTX 3050 Laptop GPU (6GB VRAM)",
+    "system_ram_gb": 8,
+    "use_fp16": true,
+    "fallback_to_cpu": true,
+    "default_train_batch_size": 8,
+    "quick_test_batch_size": 4,
+    "eval_batch_size": 16
+  },
+  "paths": {
+    "raw_data_dir": "experiments/data/raw",
+    "processed_data_dir": "experiments/data/processed",
+    "evaluation_data_dir": "experiments/data/evaluation",
+    "models_dir": "experiments/models",
+    "finetuned_model_path": "experiments/models/finetuned_bge_small",
+    "results_dir": "experiments/results"
+  },
+  "dataset": {
+    "name": "MedQuAD",
+    "source_url": "https://github.com/abachaa/MedQuAD",
+    "splits": {
+      "train": 0.80,
+      "validation": 0.10,
+      "test": 0.10
+    },
+    "grouping_key": "source_focus",
+    "min_answer_characters": 30,
+    "quick_test_subset_size": 300,
+    "full_train_subset_size": 10000
+  },
+  "training": {
+    "base_model": "BAAI/bge-small-en-v1.5",
+    "target_embedding_dimension": 384,
+    "max_seq_length": 512,
+    "loss_function": "MultipleNegativesRankingLoss",
+    "optimizer": "AdamW",
+    "learning_rate": 2e-5,
+    "warmup_ratio": 0.1,
+    "epochs": 3,
+    "evaluation_steps": 250,
+    "save_best_model": true
+  },
+  "models_to_compare": [
+    {
+      "id": "BAAI/bge-small-en-v1.5",
+      "display_name": "BGE-Small v1.5 (Pretrained Baseline)",
+      "dimension": 384,
+      "query_prefix": "Represent this sentence for searching relevant passages: "
+    },
+    {
+      "id": "intfloat/e5-small-v2",
+      "display_name": "E5-Small v2 (Pretrained Competitor)",
+      "dimension": 384,
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: "
+    },
+    {
+      "id": "thenlper/gte-small",
+      "display_name": "GTE-Small (Pretrained Competitor)",
+      "dimension": 384,
+      "query_prefix": ""
+    },
+    {
+      "id": "sentence-transformers/all-MiniLM-L6-v2",
+      "display_name": "All-MiniLM-L6-v2 (General Baseline)",
+      "dimension": 384,
+      "query_prefix": ""
+    },
+    {
+      "id": "experiments/models/finetuned_bge_small",
+      "display_name": "Fine-Tuned Hospital BGE-Small (Ours)",
+      "dimension": 384,
+      "query_prefix": "Represent this sentence for searching relevant passages: "
+    }
+  ],
+  "chunking_strategies": [
+    {
+      "name": "existing",
+      "chunk_size": 700,
+      "chunk_overlap": 100,
+      "description": "Production app current baseline configuration"
+    },
+    {
+      "name": "optimized",
+      "chunk_size": 400,
+      "chunk_overlap": 50,
+      "description": "Recommended for clinical and diagnostic paragraphs"
+    },
+    {
+      "name": "alternative",
+      "chunk_size": 350,
+      "chunk_overlap": 50,
+      "description": "Granular chunking for concise medical answers"
+    }
+  ],
+  "retrieval": {
+    "dense_metric": "cosine",
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "weighted_hybrid": {
+      "dense_weight": 0.65,
+      "sparse_weight": 0.35
+    },
+    "rrf": {
+      "k": 60
+    },
+    "reranker": {
+      "enabled": true,
+      "model_name": "BAAI/bge-reranker-base",
+      "candidate_pool_size": 15,
+      "final_top_k": 4
+    }
+  },
+  "metrics": [
+    "Hit@1",
+    "Hit@3",
+    "Hit@5",
+    "Recall@5",
+    "Precision@5",
+    "MRR@10",
+    "nDCG@10"
+  ]
+}
